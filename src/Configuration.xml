@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ВЧ_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>3</Version>
+			<Version>4</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -81,6 +81,7 @@
 			<Role>ВЧ_ОсновнаяРоль</Role>
 			<CommonModule>ВЧ_ИнтеграцияСервер</CommonModule>
 			<CommonModule>ВЧ_ОбработчикиСобытий</CommonModule>
+			<EventSubscription>ВЧ_ПриЗаписиСотрудника</EventSubscription>
 			<Constant>ВЧ_ИспользоватьИнтеграцию</Constant>
 			<Constant>ВЧ_URLСервера</Constant>
 			<Constant>ВЧ_ПортСервера</Constant>

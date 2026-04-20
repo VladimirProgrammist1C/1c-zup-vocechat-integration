@@ -6,7 +6,8 @@
 		<Metadata name="CommonModule.ВЧ_ИнтеграцияСервер" id="fab557d8-4cb8-4db0-8209-0eedc364bf8c" configVersion="ad961e368d4cb0454250191e28d7c69ad7b5268c"/>
 		<Metadata name="CommonModule.ВЧ_ИнтеграцияСервер.Module" id="fab557d8-4cb8-4db0-8209-0eedc364bf8c.0" configVersion="d686a456170c02930ae28c2518b1a00374f45358"/>
 		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий" id="78d94763-fde4-42b0-a8a3-417e7950bad0" configVersion="3075f70f3412fd5f314197f640cc1543683eb59c"/>
-		<Metadata name="Configuration.ВЧ_ИнтеграцияСVoceChat" id="6449aa1b-4e3f-4608-b3c6-0c6cd352366b" configVersion="cd2293068c3e46283e31b1bfd8392c41e9d276d2"/>
+		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий.Module" id="78d94763-fde4-42b0-a8a3-417e7950bad0.0" configVersion="5201a89154c414c205be52646f4749f3092d8bf4"/>
+		<Metadata name="Configuration.ВЧ_ИнтеграцияСVoceChat" id="6449aa1b-4e3f-4608-b3c6-0c6cd352366b" configVersion="fc16ccc77ce3e0352cb64c8ab5a8249d752401ff"/>
 		<Metadata name="Constant.ВЧ_BotAPIKey" id="73c87ff6-4e13-4f39-9701-c6491b421696" configVersion="ec07996104dd7b4e38a140d328381a41c9f68315"/>
 		<Metadata name="Constant.ВЧ_IDКанала" id="0d2ba080-02cc-4ca3-9b99-d17cb86558d1" configVersion="96b22e874c30aae02d216fc452b9f4850bbde34c"/>
 		<Metadata name="Constant.ВЧ_URLСервера" id="08336144-ba6c-4bd4-ad5b-effbbd22de56" configVersion="43db91fe7a11892ccbe54ffb74b1bc1af65e251b"/>
@@ -19,6 +20,7 @@
 			<Metadata name="Enum.ВЧ_СтатусыУведомлений.EnumValue.ВОбработке" id="9248e950-cde6-444b-af88-fdc47793d09b"/>
 			<Metadata name="Enum.ВЧ_СтатусыУведомлений.EnumValue.Отправлено" id="ed278654-49de-45c3-a5c2-e82d7faf6ec4"/>
 		</Metadata>
+		<Metadata name="EventSubscription.ВЧ_ПриЗаписиСотрудника" id="75e518ce-bbb5-4a93-98d1-6f42711fc560" configVersion="4031633504a52dfbf1307a261fc269591831d3a6"/>
 		<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений" id="ad859d09-3f63-478b-987f-2123cf8fe298" configVersion="99350842df59b7f3c03ed1de0815f49637997f4e">
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Resource.Параметры" id="5144dce6-de22-4ac4-af77-cec2e2298272"/>
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Resource.ТипСобытия" id="7bd3fcfa-fb3a-440e-9f00-e1935becdf5b"/>
