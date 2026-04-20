@@ -30,7 +30,7 @@
 		</Metadata>
 		<Metadata name="Language.Русский" id="6456a536-b6ef-417e-8c6a-6fb9270e8fc9" configVersion="59d8389997bcaef9cb947c2e0012adc9f779aa63"/>
 		<Metadata name="Role.ВЧ_АдминистраторИнтеграции" id="b940b48c-9b3b-44f4-949d-0da3766bb15a" configVersion="7e821ca514694e78aa57976b49c2da1e42da9853"/>
-		<Metadata name="Role.ВЧ_АдминистраторИнтеграции.Rights" id="b940b48c-9b3b-44f4-949d-0da3766bb15a.0" configVersion="6dd48b444bcd7760958acedb7739c75222df07ec"/>
+		<Metadata name="Role.ВЧ_АдминистраторИнтеграции.Rights" id="b940b48c-9b3b-44f4-949d-0da3766bb15a.0" configVersion="8609b8dc567937b0b7ed6f97482017d48da6874c"/>
 		<Metadata name="Role.ВЧ_ОсновнаяРоль" id="e9d0216c-81db-4e9f-b63d-ed5ae705c306" configVersion="b0cb647ce4b1f6b46998b8f42aa4119be6cfe7ed"/>
 		<Metadata name="ScheduledJob.ВЧ_ОбработчикОчередиУведомлений" id="285f8fd1-549a-41cd-a739-4a45acc91529" configVersion="9ca9d79bd71cba3e4b90205079aba2f31729b80b"/>
 		<Metadata name="ScheduledJob.ВЧ_ОбработчикОчередиУведомлений.Schedule" id="285f8fd1-549a-41cd-a739-4a45acc91529.0" configVersion="6f903856c51928cf8585fa60d191835095ce25fc"/>
