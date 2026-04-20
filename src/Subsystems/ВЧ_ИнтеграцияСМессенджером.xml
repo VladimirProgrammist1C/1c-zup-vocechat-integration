@@ -17,6 +17,13 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВЧ_ОчередьУведомлений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВЧ_ИспользоватьИнтеграцию</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВЧ_URLСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВЧ_ПортСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВЧ_BotAPIKey</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВЧ_IDКанала</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВЧ_ОтветственныйКадровик</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВЧ_СтатусыУведомлений</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

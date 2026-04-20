@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ВЧ_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>2</Version>
+			<Version>3</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -89,6 +89,7 @@
 			<Constant>ВЧ_ОтветственныйКадровик</Constant>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Сотрудники</Catalog>
+			<Enum>ВЧ_СтатусыУведомлений</Enum>
 			<InformationRegister>ВЧ_ОчередьУведомлений</InformationRegister>
 		</ChildObjects>
 	</Configuration>
