@@ -54,12 +54,22 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ВЧ_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>1</Version>
+			<Version>2</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
-			<BriefInformation/>
-			<DetailedInformation/>
+			<BriefInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Интеграция с VoceChat для уведомлений</v8:content>
+				</v8:item>
+			</BriefInformation>
+			<DetailedInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Автоматическая отправка уведомлений в корпоративный мессенджер VoceChat при создании новых сотрудников</v8:content>
+				</v8:item>
+			</DetailedInformation>
 			<Copyright/>
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
@@ -67,7 +77,19 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>ВЧ_ИнтеграцияСМессенджером</Subsystem>
 			<Role>ВЧ_ОсновнаяРоль</Role>
+			<CommonModule>ВЧ_ИнтеграцияСервер</CommonModule>
+			<CommonModule>ВЧ_ОбработчикиСобытий</CommonModule>
+			<Constant>ВЧ_ИспользоватьИнтеграцию</Constant>
+			<Constant>ВЧ_URLСервера</Constant>
+			<Constant>ВЧ_ПортСервера</Constant>
+			<Constant>ВЧ_BotAPIKey</Constant>
+			<Constant>ВЧ_IDКанала</Constant>
+			<Constant>ВЧ_ОтветственныйКадровик</Constant>
+			<Catalog>Пользователи</Catalog>
+			<Catalog>Сотрудники</Catalog>
+			<InformationRegister>ВЧ_ОчередьУведомлений</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
