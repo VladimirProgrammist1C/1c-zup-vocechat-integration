@@ -1,23 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
-	<CommonModule uuid="78d94763-fde4-42b0-a8a3-417e7950bad0">
+	<FunctionalOption uuid="311e4cc6-097e-49a8-82e5-b85614a4b609">
 		<Properties>
-			<Name>ВЧ_ОбработчикиСобытий</Name>
+			<Name>ВЧ_ИспользоватьИнтеграциюСVoceChat</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обработчики событий</v8:content>
+					<v8:content>Использовать интеграцию с voce chat</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>Подписки на события конфигурации</Comment>
-			<Global>false</Global>
-			<ClientManagedApplication>false</ClientManagedApplication>
-			<Server>true</Server>
-			<ExternalConnection>true</ExternalConnection>
-			<ClientOrdinaryApplication>false</ClientOrdinaryApplication>
-			<ServerCall>false</ServerCall>
-			<Privileged>false</Privileged>
-			<ReturnValuesReuse>DontUse</ReturnValuesReuse>
+			<Comment/>
+			<Location>Constant.ВЧ_ИспользоватьИнтеграцию</Location>
+			<PrivilegedGetMode>true</PrivilegedGetMode>
+			<Content>
+				<xr:Object>Subsystem.ВЧ_ИнтеграцияСМессенджером</xr:Object>
+				<xr:Object>Constant.ВЧ_ИспользоватьИнтеграцию</xr:Object>
+				<xr:Object>Constant.ВЧ_URLСервера</xr:Object>
+				<xr:Object>Constant.ВЧ_ПортСервера</xr:Object>
+				<xr:Object>Constant.ВЧ_BotAPIKey</xr:Object>
+				<xr:Object>Constant.ВЧ_IDКанала</xr:Object>
+				<xr:Object>Constant.ВЧ_ОтветственныйКадровик</xr:Object>
+				<xr:Object>Enum.ВЧ_СтатусыУведомлений</xr:Object>
+				<xr:Object>InformationRegister.ВЧ_ОчередьУведомлений</xr:Object>
+			</Content>
 		</Properties>
-	</CommonModule>
+	</FunctionalOption>
 </MetaDataObject>

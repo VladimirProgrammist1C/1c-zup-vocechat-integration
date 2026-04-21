@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ВЧ_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>6</Version>
+			<Version>7</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -80,10 +80,12 @@
 			<Subsystem>ВЧ_ИнтеграцияСМессенджером</Subsystem>
 			<Role>ВЧ_ОсновнаяРоль</Role>
 			<Role>ВЧ_АдминистраторИнтеграции</Role>
+			<Role>ВЧ_ЧтениеИнтеграции</Role>
 			<CommonModule>ВЧ_ИнтеграцияСервер</CommonModule>
 			<CommonModule>ВЧ_ОбработчикиСобытий</CommonModule>
-			<EventSubscription>ВЧ_ПриЗаписиСотрудника</EventSubscription>
+			<EventSubscription>ВЧ_ПриПриемеНаРаботу</EventSubscription>
 			<ScheduledJob>ВЧ_ОбработчикОчередиУведомлений</ScheduledJob>
+			<FunctionalOption>ВЧ_ИспользоватьИнтеграциюСVoceChat</FunctionalOption>
 			<Constant>ВЧ_ИспользоватьИнтеграцию</Constant>
 			<Constant>ВЧ_URLСервера</Constant>
 			<Constant>ВЧ_ПортСервера</Constant>
@@ -92,6 +94,7 @@
 			<Constant>ВЧ_ОтветственныйКадровик</Constant>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Сотрудники</Catalog>
+			<Document>ПриемНаРаботу</Document>
 			<Enum>ВЧ_СтатусыУведомлений</Enum>
 			<InformationRegister>ВЧ_ОчередьУведомлений</InformationRegister>
 		</ChildObjects>
