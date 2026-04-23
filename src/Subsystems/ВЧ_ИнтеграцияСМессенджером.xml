@@ -30,6 +30,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ВЧ_ОбработчикиСобытий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ВЧ_ТестированиеОтправки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ВЧ_НастройкиИнтеграции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВЧ_МаксимальноеКоличествоПопыток</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

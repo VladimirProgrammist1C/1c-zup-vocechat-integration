@@ -65,6 +65,24 @@
 			<ContextMenu name="ВЧ_IDКаналаКонтекстноеМеню" id="18"/>
 			<ExtendedTooltip name="ВЧ_IDКаналаРасширеннаяПодсказка" id="19"/>
 		</InputField>
+		<InputField name="ВЧ_МаксимальноеКоличествоПопыток" id="71">
+			<DataPath>НаборКонстант.ВЧ_МаксимальноеКоличествоПопыток</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Лимит попыток</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сколько раз пробовать отправить, если сервис недоступен</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВЧ_МаксимальноеКоличествоПопытокКонтекстноеМеню" id="72"/>
+			<ExtendedTooltip name="ВЧ_МаксимальноеКоличествоПопытокРасширеннаяПодсказка" id="73"/>
+		</InputField>
 		<InputField name="ВЧ_ОтветственныйКадровик" id="21">
 			<DataPath>НаборКонстант.ВЧ_ОтветственныйКадровик</DataPath>
 			<EditMode>EnterOnInput</EditMode>

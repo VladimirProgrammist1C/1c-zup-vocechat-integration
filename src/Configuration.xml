@@ -58,7 +58,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ВЧ_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>9</Version>
+			<Version>10</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -97,6 +97,7 @@
 			<Constant>ВЧ_BotAPIKey</Constant>
 			<Constant>ВЧ_IDКанала</Constant>
 			<Constant>ВЧ_ОтветственныйКадровик</Constant>
+			<Constant>ВЧ_МаксимальноеКоличествоПопыток</Constant>
 			<CommonForm>ВЧ_НастройкиИнтеграции</CommonForm>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Сотрудники</Catalog>
