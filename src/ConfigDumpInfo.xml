@@ -10,7 +10,7 @@
 		<Metadata name="CommonModule.ВЧ_ИнтеграцияСервер" id="fab557d8-4cb8-4db0-8209-0eedc364bf8c" configVersion="ad961e368d4cb0454250191e28d7c69ad7b5268c"/>
 		<Metadata name="CommonModule.ВЧ_ИнтеграцияСервер.Module" id="fab557d8-4cb8-4db0-8209-0eedc364bf8c.0" configVersion="98dcd1c6c57ca49f02f6839fbfd12336bd35c5d8"/>
 		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий" id="78d94763-fde4-42b0-a8a3-417e7950bad0" configVersion="c358be61a13e142bc2afd5b3f9090570ced9e632"/>
-		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий.Module" id="78d94763-fde4-42b0-a8a3-417e7950bad0.0" configVersion="274d2abbb2f88b177b4851204d63e232e0bab809"/>
+		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий.Module" id="78d94763-fde4-42b0-a8a3-417e7950bad0.0" configVersion="7dea2161fc39812e6e448a43c17c82ad8b1d3868"/>
 		<Metadata name="Configuration.ВЧ_ИнтеграцияСVoceChat" id="6449aa1b-4e3f-4608-b3c6-0c6cd352366b" configVersion="b34574412dcc4ab3eebf3e5eed21ccc90f6a6fe5"/>
 		<Metadata name="Configuration.ВЧ_ИнтеграцияСVoceChat.ManagedApplicationModule" id="dd65656a-f3e3-4d1f-a793-27720f6e8196.6" configVersion="daa1e4404b3df1f811823216c20c21e2e65e776d"/>
 		<Metadata name="Constant.ВЧ_BotAPIKey" id="73c87ff6-4e13-4f39-9701-c6491b421696" configVersion="d2943dd4ba5efc81f9569dd876c42b8d5ee72c88"/>
@@ -33,20 +33,19 @@
 		</Metadata>
 		<Metadata name="EventSubscription.ВЧ_ПриПриемеНаРаботу" id="75e518ce-bbb5-4a93-98d1-6f42711fc560" configVersion="57f493a2ce5cc96e8878a8e5efb1c76a98fc4ecc"/>
 		<Metadata name="FunctionalOption.ВЧ_ИспользоватьИнтеграциюСVoceChat" id="311e4cc6-097e-49a8-82e5-b85614a4b609" configVersion="8ee2dac672f0dfd9023c98678eb0b70dcc79d9c4"/>
-		<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений" id="ad859d09-3f63-478b-987f-2123cf8fe298" configVersion="54c96cb4b433dd3878981232036e5c380143e9ab">
+		<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений" id="ad859d09-3f63-478b-987f-2123cf8fe298" configVersion="1f67ab1ecac74ea4f9ed9f74729a243285d5850d">
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Resource.ДатаПоследнейПопытки" id="45424096-9843-4064-a4fd-146c6c1592cd"/>
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Resource.Параметры" id="5144dce6-de22-4ac4-af77-cec2e2298272"/>
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Resource.ОтветственныйКадровик" id="7a646f59-6acb-411b-8417-5adacd175de2"/>
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Resource.ТипСобытия" id="7bd3fcfa-fb3a-440e-9f00-e1935becdf5b"/>
+			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Dimension.ДокументОснование" id="9c2f6723-40c2-402d-99da-71ce2abda847"/>
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Resource.ДатаСоздания" id="a46b5b08-8355-483c-a871-a3a7e8d02cae"/>
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Resource.ПопыткиОтправки" id="b1b977a0-1365-48bf-8f73-cb739d3229fc"/>
-			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Dimension.Сотрудник" id="bf7d2bb7-9ee3-4c58-9588-933f373e2d87"/>
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Resource.ТекстСообщения" id="d39bf50d-1a33-4f70-b783-455ecffca1b9"/>
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Dimension.IDКанала" id="d6177993-a975-4e27-b5f5-1adf78578af0"/>
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Resource.Статус" id="ddc3124d-8bb4-4905-a340-bac5f9bdf747"/>
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Dimension.ИДСообщения" id="e1a690eb-f74c-4b17-a263-20254d8f3eff"/>
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Resource.ТекстОшибки" id="e4a8407f-dcbe-40dd-8004-101ee1448258"/>
-			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Dimension.ДокументОснование" id="ece56e6e-6285-4e1d-95a8-1601d52d519b"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Form.ФормаЗаписи" id="6a2af7ce-718f-4466-ad8c-b26d8b0e5ea0" configVersion="7572c3313aa2af68ac21b8c4c59c3e4beaf8bdf0"/>
 		<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Form.ФормаЗаписи.Form" id="6a2af7ce-718f-4466-ad8c-b26d8b0e5ea0.0" configVersion="101be37c3b3c318d72e32211d15bfa87abaaa44d"/>

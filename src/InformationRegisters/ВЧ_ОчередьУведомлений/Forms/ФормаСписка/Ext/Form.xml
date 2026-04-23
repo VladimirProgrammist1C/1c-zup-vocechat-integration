@@ -71,7 +71,7 @@
 					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="26"/>
 				</LabelField>
 				<LabelField name="Сотрудник" id="28">
-					<DataPath>Список.Сотрудник</DataPath>
+					<DataPath>~Список.Сотрудник</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СотрудникКонтекстноеМеню" id="29"/>

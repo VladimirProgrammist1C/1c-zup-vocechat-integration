@@ -13,7 +13,7 @@
 			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="Сотрудник" id="5">
-			<DataPath>Запись.Сотрудник</DataPath>
+			<DataPath>1/0:bf7d2bb7-9ee3-4c58-9588-933f373e2d87</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СотрудникКонтекстноеМеню" id="6"/>
 			<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="7"/>
@@ -25,7 +25,7 @@
 			<ExtendedTooltip name="ИДСообщенияРасширеннаяПодсказка" id="11"/>
 		</InputField>
 		<InputField name="ДокументОснование" id="13">
-			<DataPath>Запись.ДокументОснование</DataPath>
+			<DataPath>1/0:ece56e6e-6285-4e1d-95a8-1601d52d519b</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ДокументОснованиеКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ДокументОснованиеРасширеннаяПодсказка" id="15"/>
