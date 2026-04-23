@@ -30,6 +30,10 @@
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
 				<xr:ObjectId>dd00aca6-e75e-4b4b-b290-2ba48fa99e8d</xr:ObjectId>
 			</xr:ContainedObject>
+			<xr:PropertyState>
+				<xr:Property>ManagedApplicationModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
@@ -54,7 +58,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ВЧ_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>8</Version>
+			<Version>9</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -86,16 +90,19 @@
 			<EventSubscription>ВЧ_ПриПриемеНаРаботу</EventSubscription>
 			<ScheduledJob>ВЧ_ОбработчикОчередиУведомлений</ScheduledJob>
 			<FunctionalOption>ВЧ_ИспользоватьИнтеграциюСVoceChat</FunctionalOption>
+			<CommonCommand>ВЧ_ТестированиеОтправки</CommonCommand>
 			<Constant>ВЧ_ИспользоватьИнтеграцию</Constant>
 			<Constant>ВЧ_URLСервера</Constant>
 			<Constant>ВЧ_ПортСервера</Constant>
 			<Constant>ВЧ_BotAPIKey</Constant>
 			<Constant>ВЧ_IDКанала</Constant>
 			<Constant>ВЧ_ОтветственныйКадровик</Constant>
+			<CommonForm>ВЧ_НастройкиИнтеграции</CommonForm>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Document>ПриемНаРаботу</Document>
 			<Enum>ВЧ_СтатусыУведомлений</Enum>
+			<DataProcessor>ОтправкаСообщенийVoceChat</DataProcessor>
 			<InformationRegister>ВЧ_ОчередьУведомлений</InformationRegister>
 		</ChildObjects>
 	</Configuration>

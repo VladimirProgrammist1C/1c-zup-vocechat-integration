@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<CheckBoxField name="ВЧ_ИспользоватьИнтеграцию" id="1">
+			<DataPath>ВЧ_ИспользоватьИнтеграцию</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Switcher</CheckBoxType>
+			<ContextMenu name="ВЧ_ИспользоватьИнтеграциюКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ВЧ_ИспользоватьИнтеграциюРасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="OnChange">ВЧ_ИспользоватьИнтеграциюПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<CheckBoxField name="ВЧ_ИспользоватьИнтеграцию1" id="35">
+			<DataPath>НаборКонстант.ВЧ_ИспользоватьИнтеграцию</DataPath>
+			<Enabled>false</Enabled>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Интеграция включена</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ВЧ_ИспользоватьИнтеграцию1КонтекстноеМеню" id="36"/>
+			<ExtendedTooltip name="ВЧ_ИспользоватьИнтеграцию1РасширеннаяПодсказка" id="37"/>
+		</CheckBoxField>
+		<InputField name="ВЧ_URLСервера" id="5">
+			<DataPath>НаборКонстант.ВЧ_URLСервера</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВЧ_URLСервераКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="ВЧ_URLСервераРасширеннаяПодсказка" id="7"/>
+		</InputField>
+		<InputField name="ВЧ_ПортСервера" id="9">
+			<DataPath>НаборКонстант.ВЧ_ПортСервера</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВЧ_ПортСервераКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="ВЧ_ПортСервераРасширеннаяПодсказка" id="11"/>
+		</InputField>
+		<InputField name="ВЧ_BotAPIKey" id="13">
+			<DataPath>НаборКонстант.ВЧ_BotAPIKey</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<MultiLine>true</MultiLine>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВЧ_BotAPIKeyКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ВЧ_BotAPIKeyРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<CheckBoxField name="ПоказыватьКлюч" id="31">
+			<DataPath>ПоказыватьКлюч</DataPath>
+			<ContextMenu name="ПоказыватьКлючКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ПоказыватьКлючРасширеннаяПодсказка" id="33"/>
+			<Events>
+				<Event name="OnChange">ПоказыватьКлючПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<InputField name="ВЧ_IDКанала" id="17">
+			<DataPath>НаборКонстант.ВЧ_IDКанала</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВЧ_IDКаналаКонтекстноеМеню" id="18"/>
+			<ExtendedTooltip name="ВЧ_IDКаналаРасширеннаяПодсказка" id="19"/>
+		</InputField>
+		<InputField name="ВЧ_ОтветственныйКадровик" id="21">
+			<DataPath>НаборКонстант.ВЧ_ОтветственныйКадровик</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВЧ_ОтветственныйКадровикКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="ВЧ_ОтветственныйКадровикРасширеннаяПодсказка" id="23"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НаборКонстант" id="1">
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ПоказыватьКлюч" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать ключ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ВЧ_ИспользоватьИнтеграцию" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать интеграцию</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Parameters>
+		<Parameter name="АдресСервера">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ПортСервера">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>5</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="БотAPIKey">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>255</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="IDКанала">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ОтветственныйКадровик">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+			</Type>
+		</Parameter>
+	</Parameters>
+</Form>

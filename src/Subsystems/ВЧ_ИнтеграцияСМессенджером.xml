@@ -26,9 +26,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВЧ_СтатусыУведомлений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ВЧ_ПриПриемеНаРаботу</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ВЧ_ОбработчикОчередиУведомлений</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ВЧ_ИспользоватьИнтеграциюСVoceChat</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ВЧ_ИнтеграцияСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ВЧ_ОбработчикиСобытий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ВЧ_ТестированиеОтправки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ВЧ_НастройкиИнтеграции</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

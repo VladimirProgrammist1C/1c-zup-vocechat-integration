@@ -80,6 +80,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.ВЧ_НастройкиИнтеграции</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ВЧ_ПортСервера</name>
 		<right>
 			<name>Read</name>
@@ -165,6 +172,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonCommand.ВЧ_ТестированиеОтправки</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Subsystem.ВЧ_ИнтеграцияСМессенджером</name>
 		<right>
 			<name>View</name>
@@ -187,6 +201,17 @@
 		</right>
 		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ОтправкаСообщенийVoceChat</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
