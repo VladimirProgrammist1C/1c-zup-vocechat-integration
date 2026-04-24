@@ -40,6 +40,12 @@
 			<ContextMenu name="ВЧ_ПортСервераКонтекстноеМеню" id="10"/>
 			<ExtendedTooltip name="ВЧ_ПортСервераРасширеннаяПодсказка" id="11"/>
 		</InputField>
+		<InputField name="ВЧ_ТаймаутHTTP" id="104">
+			<DataPath>НаборКонстант.ВЧ_ТаймаутHTTP</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВЧ_ТаймаутHTTPКонтекстноеМеню" id="105"/>
+			<ExtendedTooltip name="ВЧ_ТаймаутHTTPРасширеннаяПодсказка" id="106"/>
+		</InputField>
 		<InputField name="ВЧ_BotAPIKey" id="13">
 			<DataPath>НаборКонстант.ВЧ_BotAPIKey</DataPath>
 			<EditMode>EnterOnInput</EditMode>

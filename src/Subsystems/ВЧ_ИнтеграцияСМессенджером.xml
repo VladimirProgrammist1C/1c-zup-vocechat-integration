@@ -31,6 +31,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ВЧ_ТестированиеОтправки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ВЧ_НастройкиИнтеграции</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВЧ_МаксимальноеКоличествоПопыток</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВЧ_ТаймаутHTTP</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

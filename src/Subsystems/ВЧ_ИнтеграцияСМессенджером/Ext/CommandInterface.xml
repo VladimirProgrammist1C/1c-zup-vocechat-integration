@@ -81,5 +81,12 @@
 				<xr:Value name="Role.ВЧ_ОсновнаяРоль">false</xr:Value>
 			</Visibility>
 		</Command>
+		<Command name="Constant.ВЧ_ТаймаутHTTP.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.ВЧ_ОсновнаяРоль">false</xr:Value>
+				<xr:Value name="Role.ВЧ_ЧтениеИнтеграции">false</xr:Value>
+			</Visibility>
+		</Command>
 	</CommandsVisibility>
 </CommandInterface>

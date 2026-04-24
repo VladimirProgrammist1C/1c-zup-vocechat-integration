@@ -107,6 +107,12 @@
 					<ContextMenu name="IDКаналаКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="IDКаналаРасширеннаяПодсказка" id="27"/>
 				</InputField>
+				<InputField name="ВЧ_ТаймаутHTTP" id="128">
+					<DataPath>ТаймаутHTTP</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ВЧ_ТаймаутHTTPКонтекстноеМеню" id="129"/>
+					<ExtendedTooltip name="ВЧ_ТаймаутHTTPРасширеннаяПодсказка" id="130"/>
+				</InputField>
 				<InputField name="БотAPIKey" id="43">
 					<DataPath>БотAPIKey</DataPath>
 					<Title>
@@ -320,6 +326,22 @@
 					<v8:Length>200</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТаймаутHTTP" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таймаут HTTP</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>
