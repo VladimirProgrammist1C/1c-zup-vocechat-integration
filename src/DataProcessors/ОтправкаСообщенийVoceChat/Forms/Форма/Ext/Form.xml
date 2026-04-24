@@ -107,11 +107,11 @@
 					<ContextMenu name="IDКаналаКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="IDКаналаРасширеннаяПодсказка" id="27"/>
 				</InputField>
-				<InputField name="ВЧ_ТаймаутHTTP" id="128">
+				<InputField name="ТаймаутHTTP" id="142">
 					<DataPath>ТаймаутHTTP</DataPath>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ВЧ_ТаймаутHTTPКонтекстноеМеню" id="129"/>
-					<ExtendedTooltip name="ВЧ_ТаймаутHTTPРасширеннаяПодсказка" id="130"/>
+					<ContextMenu name="ТаймаутHTTPКонтекстноеМеню" id="143"/>
+					<ExtendedTooltip name="ТаймаутHTTPРасширеннаяПодсказка" id="144"/>
 				</InputField>
 				<InputField name="БотAPIKey" id="43">
 					<DataPath>БотAPIKey</DataPath>

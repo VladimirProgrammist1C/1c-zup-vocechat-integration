@@ -20,6 +20,8 @@
 				<xr:Object>Constant.ВЧ_ОтветственныйКадровик</xr:Object>
 				<xr:Object>Enum.ВЧ_СтатусыУведомлений</xr:Object>
 				<xr:Object>InformationRegister.ВЧ_ОчередьУведомлений</xr:Object>
+				<xr:Object>Constant.ВЧ_ТаймаутHTTP</xr:Object>
+				<xr:Object>Constant.ВЧ_МаксимальноеКоличествоПопыток</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>
