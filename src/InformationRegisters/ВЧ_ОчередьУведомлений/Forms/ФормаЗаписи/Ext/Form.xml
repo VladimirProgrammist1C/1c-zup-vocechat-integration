@@ -6,85 +6,249 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<InputField name="Период" id="1">
-			<DataPath>Запись.Period</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
-		</InputField>
-		<InputField name="Сотрудник" id="5">
-			<DataPath>1/0:bf7d2bb7-9ee3-4c58-9588-933f373e2d87</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="СотрудникКонтекстноеМеню" id="6"/>
-			<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="7"/>
-		</InputField>
-		<InputField name="ИДСообщения" id="9">
-			<DataPath>Запись.ИДСообщения</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ИДСообщенияКонтекстноеМеню" id="10"/>
-			<ExtendedTooltip name="ИДСообщенияРасширеннаяПодсказка" id="11"/>
-		</InputField>
-		<InputField name="ДокументОснование" id="13">
-			<DataPath>1/0:ece56e6e-6285-4e1d-95a8-1601d52d519b</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ДокументОснованиеКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="ДокументОснованиеРасширеннаяПодсказка" id="15"/>
-		</InputField>
-		<InputField name="IDКанала" id="17">
-			<DataPath>Запись.IDКанала</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="IDКаналаКонтекстноеМеню" id="18"/>
-			<ExtendedTooltip name="IDКаналаРасширеннаяПодсказка" id="19"/>
-		</InputField>
-		<InputField name="Статус" id="21">
-			<DataPath>Запись.Статус</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="СтатусКонтекстноеМеню" id="22"/>
-			<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="23"/>
-		</InputField>
-		<InputField name="ПопыткиОтправки" id="25">
-			<DataPath>Запись.ПопыткиОтправки</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ПопыткиОтправкиКонтекстноеМеню" id="26"/>
-			<ExtendedTooltip name="ПопыткиОтправкиРасширеннаяПодсказка" id="27"/>
-		</InputField>
-		<InputField name="ТипСобытия" id="29">
-			<DataPath>Запись.ТипСобытия</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ТипСобытияКонтекстноеМеню" id="30"/>
-			<ExtendedTooltip name="ТипСобытияРасширеннаяПодсказка" id="31"/>
-		</InputField>
-		<InputField name="ТекстСообщенияДляОтображения" id="61">
-			<DataPath>ТекстСообщенияДляОтображения</DataPath>
-			<MultiLine>true</MultiLine>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ТекстСообщенияДляОтображенияКонтекстноеМеню" id="62"/>
-			<ExtendedTooltip name="ТекстСообщенияДляОтображенияРасширеннаяПодсказка" id="63"/>
-		</InputField>
-		<InputField name="ТекстОшибки" id="33">
-			<DataPath>Запись.ТекстОшибки</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ТекстОшибкиКонтекстноеМеню" id="34"/>
-			<ExtendedTooltip name="ТекстОшибкиРасширеннаяПодсказка" id="35"/>
-		</InputField>
-		<InputField name="ДатаСоздания" id="37">
-			<DataPath>Запись.ДатаСоздания</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ДатаСозданияКонтекстноеМеню" id="38"/>
-			<ExtendedTooltip name="ДатаСозданияРасширеннаяПодсказка" id="39"/>
-		</InputField>
-		<InputField name="ДатаПоследнейПопытки" id="41">
-			<DataPath>Запись.ДатаПоследнейПопытки</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ДатаПоследнейПопыткиКонтекстноеМеню" id="42"/>
-			<ExtendedTooltip name="ДатаПоследнейПопыткиРасширеннаяПодсказка" id="43"/>
-		</InputField>
-		<InputField name="ОтветственныйКадровик" id="45">
-			<DataPath>Запись.ОтветственныйКадровик</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ОтветственныйКадровикКонтекстноеМеню" id="46"/>
-			<ExtendedTooltip name="ОтветственныйКадровикРасширеннаяПодсказка" id="47"/>
-		</InputField>
+		<UsualGroup name="ГруппаДанныеОтправки" id="93">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные отправки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа данные отправки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаДанныеОтправкиРасширеннаяПодсказка" id="94"/>
+			<ChildItems>
+				<InputField name="Период" id="1">
+					<DataPath>Запись.Period</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Сотрудник" id="5">
+					<DataPath>1/0:bf7d2bb7-9ee3-4c58-9588-933f373e2d87</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СотрудникКонтекстноеМеню" id="6"/>
+					<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="7"/>
+				</InputField>
+				<InputField name="ДокументОснование" id="13">
+					<DataPath>1/0:ece56e6e-6285-4e1d-95a8-1601d52d519b</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДокументОснованиеКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="ДокументОснованиеРасширеннаяПодсказка" id="15"/>
+				</InputField>
+				<InputField name="IDКанала" id="17">
+					<DataPath>Запись.IDКанала</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="IDКаналаКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="IDКаналаРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="ТипСобытия" id="29">
+					<DataPath>Запись.ТипСобытия</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТипСобытияКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ТипСобытияРасширеннаяПодсказка" id="31"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДанныеСообщения" id="91">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа данные сообщения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаДанныеСообщенияРасширеннаяПодсказка" id="92"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаИДСообщения" id="107">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ID Сообщения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа ИДСообщения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
+					<ExtendedTooltip name="ГруппаИДСообщенияРасширеннаяПодсказка" id="108"/>
+					<ChildItems>
+						<InputField name="ИДСообщения" id="9">
+							<DataPath>Запись.ИДСообщения</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ИДСообщенияКонтекстноеМеню" id="10"/>
+							<ExtendedTooltip name="ИДСообщенияРасширеннаяПодсказка" id="11"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаТекстСообщения" id="105">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текст сообщения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа текст сообщения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Behavior>Collapsible</Behavior>
+					<Collapsed>true</Collapsed>
+					<ExtendedTooltip name="ГруппаТекстСообщенияРасширеннаяПодсказка" id="106"/>
+					<ChildItems>
+						<InputField name="ТекстСообщенияДляОтображения" id="61">
+							<DataPath>ТекстСообщенияДляОтображения</DataPath>
+							<MultiLine>true</MultiLine>
+							<ExtendedEdit>true</ExtendedEdit>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТекстСообщенияДляОтображенияКонтекстноеМеню" id="62"/>
+							<ExtendedTooltip name="ТекстСообщенияДляОтображенияРасширеннаяПодсказка" id="63"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСтатусПопыткиОшибки" id="95">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус, попытки, ошибки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа статус попытки ошибки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСтатусПопыткиОшибкиРасширеннаяПодсказка" id="96"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаСтатусПопытки" id="103">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус, попытки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа статус попытки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
+					<ExtendedTooltip name="ГруппаСтатусПопыткиРасширеннаяПодсказка" id="104"/>
+					<ChildItems>
+						<InputField name="Статус" id="21">
+							<DataPath>Запись.Статус</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СтатусКонтекстноеМеню" id="22"/>
+							<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="23"/>
+						</InputField>
+						<InputField name="ПопыткиОтправки" id="25">
+							<DataPath>Запись.ПопыткиОтправки</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПопыткиОтправкиКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ПопыткиОтправкиРасширеннаяПодсказка" id="27"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаТекстОшибки" id="101">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текст ошибки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа текст ошибки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Behavior>Collapsible</Behavior>
+					<Collapsed>true</Collapsed>
+					<ExtendedTooltip name="ГруппаТекстОшибкиРасширеннаяПодсказка" id="102"/>
+					<ChildItems>
+						<InputField name="ТекстОшибки" id="33">
+							<DataPath>Запись.ТекстОшибки</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТекстОшибкиКонтекстноеМеню" id="34"/>
+							<ExtendedTooltip name="ТекстОшибкиРасширеннаяПодсказка" id="35"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДаты" id="97">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Даты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа даты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаДатыРасширеннаяПодсказка" id="98"/>
+			<ChildItems>
+				<InputField name="ДатаСоздания" id="37">
+					<DataPath>Запись.ДатаСоздания</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаСозданияКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ДатаСозданияРасширеннаяПодсказка" id="39"/>
+				</InputField>
+				<InputField name="ДатаПоследнейПопытки" id="41">
+					<DataPath>Запись.ДатаПоследнейПопытки</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаПоследнейПопыткиКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ДатаПоследнейПопыткиРасширеннаяПодсказка" id="43"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОтветственныйКадровик" id="99">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответственный кадровик</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа ответственный кадровик</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаОтветственныйКадровикРасширеннаяПодсказка" id="100"/>
+			<ChildItems>
+				<InputField name="ОтветственныйКадровик" id="45">
+					<DataPath>Запись.ОтветственныйКадровик</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОтветственныйКадровикКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="ОтветственныйКадровикРасширеннаяПодсказка" id="47"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Запись" id="1">

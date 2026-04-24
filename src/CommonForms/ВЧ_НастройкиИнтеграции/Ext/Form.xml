@@ -16,18 +16,16 @@
 				<Event name="OnChange">ВЧ_ИспользоватьИнтеграциюПриИзменении</Event>
 			</Events>
 		</CheckBoxField>
-		<CheckBoxField name="ВЧ_ИспользоватьИнтеграцию1" id="35">
-			<DataPath>НаборКонстант.ВЧ_ИспользоватьИнтеграцию</DataPath>
-			<Enabled>false</Enabled>
-			<Title>
+		<LabelDecoration name="СтатусИнтеграции" id="93">
+			<Title formatted="false">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Интеграция включена</v8:content>
+					<v8:content>Статус интеграции</v8:content>
 				</v8:item>
 			</Title>
-			<ContextMenu name="ВЧ_ИспользоватьИнтеграцию1КонтекстноеМеню" id="36"/>
-			<ExtendedTooltip name="ВЧ_ИспользоватьИнтеграцию1РасширеннаяПодсказка" id="37"/>
-		</CheckBoxField>
+			<ContextMenu name="СтатусИнтеграцииКонтекстноеМеню" id="94"/>
+			<ExtendedTooltip name="СтатусИнтеграцииРасширеннаяПодсказка" id="95"/>
+		</LabelDecoration>
 		<InputField name="ВЧ_URLСервера" id="5">
 			<DataPath>НаборКонстант.ВЧ_URLСервера</DataPath>
 			<EditMode>EnterOnInput</EditMode>
