@@ -6,7 +6,7 @@
 		<Metadata name="CommonCommand.ВЧ_ТестированиеОтправки" id="861905be-da03-42cc-83c7-19d849616dee" configVersion="4391e66d463881312c4b62accec63cfae28f0ca0"/>
 		<Metadata name="CommonCommand.ВЧ_ТестированиеОтправки.CommandModule" id="861905be-da03-42cc-83c7-19d849616dee.2" configVersion="1ca690af5cc1ea7481066245387cb6d2d5235887"/>
 		<Metadata name="CommonForm.ВЧ_НастройкиИнтеграции" id="3dd13b84-edb0-45c9-8688-0ba3f3cd262e" configVersion="4d1cc2894839bfdb0440c4da3a58fdb94b09c71d"/>
-		<Metadata name="CommonForm.ВЧ_НастройкиИнтеграции.Form" id="3dd13b84-edb0-45c9-8688-0ba3f3cd262e.0" configVersion="84d6d5c36854745107647e65be180a1e7bf0156b"/>
+		<Metadata name="CommonForm.ВЧ_НастройкиИнтеграции.Form" id="3dd13b84-edb0-45c9-8688-0ba3f3cd262e.0" configVersion="ebe1a7c4d4001ba62b19e5fdc2189184e80df29f"/>
 		<Metadata name="CommonModule.ВЧ_ИнтеграцияСервер" id="fab557d8-4cb8-4db0-8209-0eedc364bf8c" configVersion="ad961e368d4cb0454250191e28d7c69ad7b5268c"/>
 		<Metadata name="CommonModule.ВЧ_ИнтеграцияСервер.Module" id="fab557d8-4cb8-4db0-8209-0eedc364bf8c.0" configVersion="3ea63646b141380b7daed15ae8c7d977d187fa22"/>
 		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий" id="78d94763-fde4-42b0-a8a3-417e7950bad0" configVersion="c358be61a13e142bc2afd5b3f9090570ced9e632"/>
