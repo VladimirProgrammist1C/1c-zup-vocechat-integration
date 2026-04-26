@@ -23,7 +23,7 @@
 		<Metadata name="Constant.ВЧ_ТаймаутHTTP" id="5c0ea738-340d-4c18-bf11-b2f97e93e3cb" configVersion="922e3b7ae8d8b5cf0198c4d72982dbb672c786dc"/>
 		<Metadata name="DataProcessor.ОтправкаСообщенийVoceChat" id="bbf5103a-f986-4511-997a-5cedf09075a6" configVersion="fa27706783e2a21c6cdd39f99904adbe2547dc44"/>
 		<Metadata name="DataProcessor.ОтправкаСообщенийVoceChat.Form.Форма" id="ab7bc7e1-370f-41ea-a6a7-59a303da3730" configVersion="aad35f3c4c464eaddf049a5626d09bf5305947de"/>
-		<Metadata name="DataProcessor.ОтправкаСообщенийVoceChat.Form.Форма.Form" id="ab7bc7e1-370f-41ea-a6a7-59a303da3730.0" configVersion="125a425228b6763f6059fec96718535b5fa59eea"/>
+		<Metadata name="DataProcessor.ОтправкаСообщенийVoceChat.Form.Форма.Form" id="ab7bc7e1-370f-41ea-a6a7-59a303da3730.0" configVersion="6866edbdf5e5401049821b30eaee5cb402985f84"/>
 		<Metadata name="DataProcessor.ОтправкаСообщенийVoceChat.ObjectModule" id="bbf5103a-f986-4511-997a-5cedf09075a6.0" configVersion="be19d8a14b4106597825f432a4d34f7e61f4da38"/>
 		<Metadata name="Document.ПриемНаРаботу" id="9f00b7f2-15c5-4e9c-9ce6-9e9048a74ee5" configVersion="7b2a6e3a2d6fcc08111e038dfae1636ee33b74f7"/>
 		<Metadata name="Enum.ВЧ_СтатусыУведомлений" id="7dfe5fe5-ac17-47f7-96d9-c00036d53af4" configVersion="3e22f1a7d23eca75207455c13349b291a39c4dbb">
