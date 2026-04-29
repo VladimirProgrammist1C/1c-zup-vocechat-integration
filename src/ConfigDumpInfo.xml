@@ -14,7 +14,7 @@
 		<Metadata name="CommonModule.ВЧ_ИнтеграцияСервер" id="fab557d8-4cb8-4db0-8209-0eedc364bf8c" configVersion="ad961e368d4cb0454250191e28d7c69ad7b5268c"/>
 		<Metadata name="CommonModule.ВЧ_ИнтеграцияСервер.Module" id="fab557d8-4cb8-4db0-8209-0eedc364bf8c.0" configVersion="329d8523445ba5050493c085f00c7a87f08afe18"/>
 		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий" id="78d94763-fde4-42b0-a8a3-417e7950bad0" configVersion="c358be61a13e142bc2afd5b3f9090570ced9e632"/>
-		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий.Module" id="78d94763-fde4-42b0-a8a3-417e7950bad0.0" configVersion="672c0a304b462fb2dd0c24023af7d86416d101ae"/>
+		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий.Module" id="78d94763-fde4-42b0-a8a3-417e7950bad0.0" configVersion="bf73df17529d3dfad995c4fe1e0ebb925ece8ab3"/>
 		<Metadata name="Configuration.ВЧ_ИнтеграцияСVoceChat" id="6449aa1b-4e3f-4608-b3c6-0c6cd352366b" configVersion="8ab55f508a30a80d88a18144e7f751a6c94077b6"/>
 		<Metadata name="Configuration.ВЧ_ИнтеграцияСVoceChat.ManagedApplicationModule" id="dd65656a-f3e3-4d1f-a793-27720f6e8196.6" configVersion="daa1e4404b3df1f811823216c20c21e2e65e776d"/>
 		<Metadata name="Constant.ВЧ_BotAPIKey" id="73c87ff6-4e13-4f39-9701-c6491b421696" configVersion="d2943dd4ba5efc81f9569dd876c42b8d5ee72c88"/>
@@ -38,7 +38,7 @@
 		</Metadata>
 		<Metadata name="EventSubscription.ВЧ_ПриПриемеНаРаботу" id="75e518ce-bbb5-4a93-98d1-6f42711fc560" configVersion="57f493a2ce5cc96e8878a8e5efb1c76a98fc4ecc"/>
 		<Metadata name="FunctionalOption.ВЧ_ИспользоватьИнтеграциюСVoceChat" id="311e4cc6-097e-49a8-82e5-b85614a4b609" configVersion="1bcb11eae0d57a5c160f5af8c40972754f74ee6c"/>
-		<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений" id="ad859d09-3f63-478b-987f-2123cf8fe298" configVersion="1f67ab1ecac74ea4f9ed9f74729a243285d5850d">
+		<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений" id="ad859d09-3f63-478b-987f-2123cf8fe298" configVersion="97f21b4bff09983471095e733f9001c98e531507">
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Resource.ДатаПоследнейПопытки" id="45424096-9843-4064-a4fd-146c6c1592cd"/>
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Resource.Параметры" id="5144dce6-de22-4ac4-af77-cec2e2298272"/>
 			<Metadata name="InformationRegister.ВЧ_ОчередьУведомлений.Resource.ОтветственныйКадровик" id="7a646f59-6acb-411b-8417-5adacd175de2"/>
