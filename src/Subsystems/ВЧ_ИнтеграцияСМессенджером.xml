@@ -32,8 +32,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ВЧ_НастройкиИнтеграции</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВЧ_МаксимальноеКоличествоПопыток</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВЧ_ТаймаутHTTP</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ВЧ_ЖурналУведомлений</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ВЧ_ЖурналУведомлений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">4c1a05d5-ed9a-4778-a199-5b6c305d9b08</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">e5b274fb-a22b-4744-a748-70cd9d160931</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

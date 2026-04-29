@@ -3,19 +3,15 @@
 	<ConfigVersions>
 		<Metadata name="Catalog.Пользователи" id="8dc1df83-a637-4676-8dd4-78c37bc20ae5" configVersion="e3e392034f1df6fe929729d76c762c59442b98d9"/>
 		<Metadata name="Catalog.Сотрудники" id="6d23fa8e-1ab9-4332-b952-bee0e585df2a" configVersion="a86785d2f794c6e33a8d82cee7140554341472e9"/>
-		<Metadata name="CommonCommand.ВЧ_ЖурналУведомлений" id="e5b274fb-a22b-4744-a748-70cd9d160931" configVersion="dec088a9f7a5cd5aa81defd30eed4f3323fd08b4"/>
-		<Metadata name="CommonCommand.ВЧ_ЖурналУведомлений.CommandModule" id="e5b274fb-a22b-4744-a748-70cd9d160931.2" configVersion="130b2f17312f70668ee9b24e2cfed742223b8a0c"/>
 		<Metadata name="CommonCommand.ВЧ_ТестированиеОтправки" id="861905be-da03-42cc-83c7-19d849616dee" configVersion="4391e66d463881312c4b62accec63cfae28f0ca0"/>
 		<Metadata name="CommonCommand.ВЧ_ТестированиеОтправки.CommandModule" id="861905be-da03-42cc-83c7-19d849616dee.2" configVersion="c91042e26ecb951c9b6f1dfa464df8141e440aee"/>
-		<Metadata name="CommonForm.ВЧ_ЖурналУведомлений" id="4c1a05d5-ed9a-4778-a199-5b6c305d9b08" configVersion="2d3d5d80932d991cc96c9c3f1984cfee3bd4b902"/>
-		<Metadata name="CommonForm.ВЧ_ЖурналУведомлений.Form" id="4c1a05d5-ed9a-4778-a199-5b6c305d9b08.0" configVersion="de1853368a1a1b4cf5d844bb77ce8fd7a23c4ed7"/>
 		<Metadata name="CommonForm.ВЧ_НастройкиИнтеграции" id="3dd13b84-edb0-45c9-8688-0ba3f3cd262e" configVersion="4d1cc2894839bfdb0440c4da3a58fdb94b09c71d"/>
 		<Metadata name="CommonForm.ВЧ_НастройкиИнтеграции.Form" id="3dd13b84-edb0-45c9-8688-0ba3f3cd262e.0" configVersion="ebe1a7c4d4001ba62b19e5fdc2189184e80df29f"/>
 		<Metadata name="CommonModule.ВЧ_ИнтеграцияСервер" id="fab557d8-4cb8-4db0-8209-0eedc364bf8c" configVersion="ad961e368d4cb0454250191e28d7c69ad7b5268c"/>
 		<Metadata name="CommonModule.ВЧ_ИнтеграцияСервер.Module" id="fab557d8-4cb8-4db0-8209-0eedc364bf8c.0" configVersion="329d8523445ba5050493c085f00c7a87f08afe18"/>
 		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий" id="78d94763-fde4-42b0-a8a3-417e7950bad0" configVersion="c358be61a13e142bc2afd5b3f9090570ced9e632"/>
 		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий.Module" id="78d94763-fde4-42b0-a8a3-417e7950bad0.0" configVersion="bf73df17529d3dfad995c4fe1e0ebb925ece8ab3"/>
-		<Metadata name="Configuration.ВЧ_ИнтеграцияСVoceChat" id="6449aa1b-4e3f-4608-b3c6-0c6cd352366b" configVersion="8ab55f508a30a80d88a18144e7f751a6c94077b6"/>
+		<Metadata name="Configuration.ВЧ_ИнтеграцияСVoceChat" id="6449aa1b-4e3f-4608-b3c6-0c6cd352366b" configVersion="06f4e6f204fd45dc8a0e815031144feae7d03389"/>
 		<Metadata name="Configuration.ВЧ_ИнтеграцияСVoceChat.ManagedApplicationModule" id="dd65656a-f3e3-4d1f-a793-27720f6e8196.6" configVersion="daa1e4404b3df1f811823216c20c21e2e65e776d"/>
 		<Metadata name="Constant.ВЧ_BotAPIKey" id="73c87ff6-4e13-4f39-9701-c6491b421696" configVersion="d2943dd4ba5efc81f9569dd876c42b8d5ee72c88"/>
 		<Metadata name="Constant.ВЧ_IDКанала" id="0d2ba080-02cc-4ca3-9b99-d17cb86558d1" configVersion="96b22e874c30aae02d216fc452b9f4850bbde34c"/>
