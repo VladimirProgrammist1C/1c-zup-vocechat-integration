@@ -45,6 +45,14 @@
 				<xr:Value name="Role.ВЧ_ОсновнаяРоль">false</xr:Value>
 			</Visibility>
 		</Command>
+		<Command name="DataProcessor.ВЧ_ЖурналУведомлений.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ВЧ_ОсновнаяРоль">false</xr:Value>
+				<xr:Value name="Role.ВЧ_АдминистраторИнтеграции">true</xr:Value>
+				<xr:Value name="Role.ВЧ_ЧтениеИнтеграции">false</xr:Value>
+			</Visibility>
+		</Command>
 		<Command name="Constant.ВЧ_ИспользоватьИнтеграцию.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>

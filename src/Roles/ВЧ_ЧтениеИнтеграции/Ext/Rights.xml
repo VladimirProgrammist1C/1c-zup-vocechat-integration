@@ -117,4 +117,11 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>CommonCommand.ВЧ_ЖурналУведомлений</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>

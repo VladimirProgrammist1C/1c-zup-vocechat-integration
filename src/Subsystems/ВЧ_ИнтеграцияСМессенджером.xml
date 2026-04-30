@@ -33,6 +33,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВЧ_МаксимальноеКоличествоПопыток</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВЧ_ТаймаутHTTP</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ВЧ_ЖурналУведомлений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВЧ_ЖурналУведомлений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ВЧ_ЖурналУведомлений</xr:Item>
 			</Content>
 		</Properties>
