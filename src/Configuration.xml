@@ -58,7 +58,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ВЧ_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>24</Version>
+			<Version>25</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -91,6 +91,7 @@
 			<ScheduledJob>ВЧ_ОбработчикОчередиУведомлений</ScheduledJob>
 			<FunctionalOption>ВЧ_ИспользоватьИнтеграциюСVoceChat</FunctionalOption>
 			<CommonCommand>ВЧ_ТестированиеОтправки</CommonCommand>
+			<CommonCommand>ВЧ_ЖурналУведомлений</CommonCommand>
 			<Constant>ВЧ_ИспользоватьИнтеграцию</Constant>
 			<Constant>ВЧ_URLСервера</Constant>
 			<Constant>ВЧ_ПортСервера</Constant>
@@ -100,6 +101,7 @@
 			<Constant>ВЧ_МаксимальноеКоличествоПопыток</Constant>
 			<Constant>ВЧ_ТаймаутHTTP</Constant>
 			<CommonForm>ВЧ_НастройкиИнтеграции</CommonForm>
+			<CommonForm>ВЧ_ЖурналУведомлений</CommonForm>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Document>ПриемНаРаботу</Document>
