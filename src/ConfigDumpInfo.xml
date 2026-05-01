@@ -12,7 +12,7 @@
 		<Metadata name="CommonModule.ВЧ_ИнтеграцияСервер" id="fab557d8-4cb8-4db0-8209-0eedc364bf8c" configVersion="ad961e368d4cb0454250191e28d7c69ad7b5268c"/>
 		<Metadata name="CommonModule.ВЧ_ИнтеграцияСервер.Module" id="fab557d8-4cb8-4db0-8209-0eedc364bf8c.0" configVersion="a30842978e817403707020710d3f31f6465742d5"/>
 		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий" id="78d94763-fde4-42b0-a8a3-417e7950bad0" configVersion="c358be61a13e142bc2afd5b3f9090570ced9e632"/>
-		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий.Module" id="78d94763-fde4-42b0-a8a3-417e7950bad0.0" configVersion="91e52637f7ac15e4466f173e71aec0aa5dc1dd9b"/>
+		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий.Module" id="78d94763-fde4-42b0-a8a3-417e7950bad0.0" configVersion="79175b72247645c874a2d32426011c7ccc4257bb"/>
 		<Metadata name="Configuration.ВЧ_ИнтеграцияСVoceChat" id="6449aa1b-4e3f-4608-b3c6-0c6cd352366b" configVersion="9ce14bb263893ca1404ff1339066d4fb4c76e3e8"/>
 		<Metadata name="Configuration.ВЧ_ИнтеграцияСVoceChat.ManagedApplicationModule" id="dd65656a-f3e3-4d1f-a793-27720f6e8196.6" configVersion="daa1e4404b3df1f811823216c20c21e2e65e776d"/>
 		<Metadata name="Constant.ВЧ_BotAPIKey" id="73c87ff6-4e13-4f39-9701-c6491b421696" configVersion="d2943dd4ba5efc81f9569dd876c42b8d5ee72c88"/>
