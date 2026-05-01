@@ -35,6 +35,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ВЧ_ЖурналУведомлений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВЧ_ЖурналУведомлений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ВЧ_ЖурналУведомлений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВЧ_ПерезаполнениеСотрудникаВРегистреУведомлений</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

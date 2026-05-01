@@ -58,7 +58,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ВЧ_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>26</Version>
+			<Version>27</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -110,6 +110,7 @@
 			<Enum>ВЧ_СтатусыУведомлений</Enum>
 			<DataProcessor>ОтправкаСообщенийVoceChat</DataProcessor>
 			<DataProcessor>ВЧ_ЖурналУведомлений</DataProcessor>
+			<DataProcessor>ВЧ_ПерезаполнениеСотрудникаВРегистреУведомлений</DataProcessor>
 			<InformationRegister>ВЧ_ОчередьУведомлений</InformationRegister>
 		</ChildObjects>
 	</Configuration>

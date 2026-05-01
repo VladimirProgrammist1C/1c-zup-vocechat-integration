@@ -179,6 +179,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ВЧ_ПерезаполнениеСотрудникаВРегистреУведомлений</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ВЧ_ЖурналУведомлений</name>
 		<right>
 			<name>Use</name>

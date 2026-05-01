@@ -28,7 +28,7 @@
 					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
 				</InputField>
 				<InputField name="Сотрудник" id="5">
-					<DataPath>1/0:bf7d2bb7-9ee3-4c58-9588-933f373e2d87</DataPath>
+					<DataPath>Запись.Сотрудник</DataPath>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="СотрудникКонтекстноеМеню" id="6"/>
 					<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="7"/>

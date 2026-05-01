@@ -19,6 +19,12 @@
 			<ContextMenu name="ОтборСтатусКонтекстноеМеню" id="6"/>
 			<ExtendedTooltip name="ОтборСтатусРасширеннаяПодсказка" id="7"/>
 		</InputField>
+		<InputField name="ОтборСотрудник" id="159">
+			<DataPath>ОтборСотрудник</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОтборСотрудникКонтекстноеМеню" id="160"/>
+			<ExtendedTooltip name="ОтборСотрудникРасширеннаяПодсказка" id="161"/>
+		</InputField>
 		<InputField name="ОтборДокумент" id="9">
 			<DataPath>ОтборДокумент</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -129,6 +135,13 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="СписокЗаписейДокументОснованиеКонтекстноеМеню" id="47"/>
 					<ExtendedTooltip name="СписокЗаписейДокументОснованиеРасширеннаяПодсказка" id="48"/>
+				</InputField>
+				<InputField name="СписокЗаписейСотрудник" id="155">
+					<DataPath>СписокЗаписей.Сотрудник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СписокЗаписейСотрудникКонтекстноеМеню" id="156"/>
+					<ExtendedTooltip name="СписокЗаписейСотрудникРасширеннаяПодсказка" id="157"/>
 				</InputField>
 				<InputField name="СписокЗаписейТекстОшибки" id="50">
 					<DataPath>СписокЗаписей.ТекстОшибки</DataPath>
@@ -288,7 +301,29 @@
 						</v8:NumberQualifiers>
 					</Type>
 				</Column>
+				<Column name="Сотрудник" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сотрудник</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Column>
 			</Columns>
+		</Attribute>
+		<Attribute name="ОтборСотрудник" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор по сотруднику</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
