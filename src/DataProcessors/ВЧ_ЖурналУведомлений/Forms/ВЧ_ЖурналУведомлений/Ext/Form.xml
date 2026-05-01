@@ -43,6 +43,16 @@
 			<AutoCommandBar name="СписокЗаписейКоманднаяПанель" id="15">
 				<Autofill>false</Autofill>
 				<ChildItems>
+					<Button name="СписокЗаписейСписокЗаписейУстановитьВсеПометки" id="183">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СписокЗаписейУстановитьВсеПометки</CommandName>
+						<ExtendedTooltip name="СписокЗаписейСписокЗаписейУстановитьВсеПометкиРасширеннаяПодсказка" id="184"/>
+					</Button>
+					<Button name="СписокЗаписейСписокЗаписейСнятьВсеПометки" id="185">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СписокЗаписейСнятьВсеПометки</CommandName>
+						<ExtendedTooltip name="СписокЗаписейСписокЗаписейСнятьВсеПометкиРасширеннаяПодсказка" id="186"/>
+					</Button>
 					<Button name="СписокЗаписейСформировать" id="58">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.Сформировать</CommandName>
@@ -96,9 +106,14 @@
 				<ExtendedTooltip name="СписокЗаписейУправлениеПоискомРасширеннаяПодсказка" id="25"/>
 			</SearchControlAddition>
 			<ChildItems>
+				<CheckBoxField name="СписокЗаписейПометка" id="179">
+					<DataPath>СписокЗаписей.Пометка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокЗаписейПометкаКонтекстноеМеню" id="180"/>
+					<ExtendedTooltip name="СписокЗаписейПометкаРасширеннаяПодсказка" id="181"/>
+				</CheckBoxField>
 				<LabelField name="СписокЗаписейИДСообщения" id="34">
 					<DataPath>СписокЗаписей.ИДСообщения</DataPath>
-					<Visible>false</Visible>
 					<EditMode>EnterOnInput</EditMode>
 					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокЗаписейИДСообщенияКонтекстноеМеню" id="35"/>
@@ -215,7 +230,11 @@
 						</v8:item>
 					</Title>
 					<Type>
-						<v8:Type>v8:UUID</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 				</Column>
 				<Column name="ДатаСоздания" id="2">
@@ -312,6 +331,11 @@
 						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
 					</Type>
 				</Column>
+				<Column name="Пометка" id="9">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="ОтборСотрудник" id="5">
@@ -401,6 +425,44 @@
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьЗаписи</Action>
+		</Command>
+		<Command name="СписокЗаписейУстановитьВсеПометки" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить все пометки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список записей установить все пометки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СписокЗаписейУстановитьВсеПометки</Action>
+		</Command>
+		<Command name="СписокЗаписейСнятьВсеПометки" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Снять все пометки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список записей снять все пометки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.UncheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СписокЗаписейСнятьВсеПометки</Action>
 		</Command>
 	</Commands>
 </Form>
