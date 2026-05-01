@@ -25,7 +25,7 @@
 		<Metadata name="Constant.ВЧ_ТаймаутHTTP" id="5c0ea738-340d-4c18-bf11-b2f97e93e3cb" configVersion="922e3b7ae8d8b5cf0198c4d72982dbb672c786dc"/>
 		<Metadata name="DataProcessor.ВЧ_ЖурналУведомлений" id="8214cf55-0089-41f9-b888-68051a8a136b" configVersion="18e69deb9f0691aa6b80ed4c533211a94dd1716f"/>
 		<Metadata name="DataProcessor.ВЧ_ЖурналУведомлений.Form.ВЧ_ЖурналУведомлений" id="abc8c448-7438-4738-b80e-c74580d725ac" configVersion="22b54c8d909a6bd5d688964f18dfe008e4934c1c"/>
-		<Metadata name="DataProcessor.ВЧ_ЖурналУведомлений.Form.ВЧ_ЖурналУведомлений.Form" id="abc8c448-7438-4738-b80e-c74580d725ac.0" configVersion="6ce8877b5c1f1e6cd9b92a76dbd5e0e897a41034"/>
+		<Metadata name="DataProcessor.ВЧ_ЖурналУведомлений.Form.ВЧ_ЖурналУведомлений.Form" id="abc8c448-7438-4738-b80e-c74580d725ac.0" configVersion="e993acb22d3b9ba41edb50c0ebbac2153ef03cb9"/>
 		<Metadata name="DataProcessor.ВЧ_ПерезаполнениеСотрудникаВРегистреУведомлений" id="7ff5b802-b1ab-45a1-9270-de210fd42054" configVersion="cd646642d7066d6a37d154a1c73eda52c795cb70"/>
 		<Metadata name="DataProcessor.ВЧ_ПерезаполнениеСотрудникаВРегистреУведомлений.Form.Форма" id="44b413c7-0c6a-4573-be3c-c5ad1d9529ed" configVersion="924524b9c992c6e851275ce8b785162ecb013b68"/>
 		<Metadata name="DataProcessor.ВЧ_ПерезаполнениеСотрудникаВРегистреУведомлений.Form.Форма.Form" id="44b413c7-0c6a-4573-be3c-c5ad1d9529ed.0" configVersion="50217603b781ddc9914339c20e373123fa75a73d"/>
