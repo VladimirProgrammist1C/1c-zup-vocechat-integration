@@ -22,7 +22,6 @@
 				<xr:Object>InformationRegister.ВЧ_ОчередьУведомлений</xr:Object>
 				<xr:Object>Constant.ВЧ_ТаймаутHTTP</xr:Object>
 				<xr:Object>Constant.ВЧ_МаксимальноеКоличествоПопыток</xr:Object>
-				<xr:Object>CommonForm.ВЧ_ЖурналУведомлений</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>
