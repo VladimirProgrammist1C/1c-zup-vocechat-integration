@@ -114,6 +114,7 @@
 				</CheckBoxField>
 				<LabelField name="СписокЗаписейИДСообщения" id="34">
 					<DataPath>СписокЗаписей.ИДСообщения</DataPath>
+					<Visible>false</Visible>
 					<EditMode>EnterOnInput</EditMode>
 					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокЗаписейИДСообщенияКонтекстноеМеню" id="35"/>
