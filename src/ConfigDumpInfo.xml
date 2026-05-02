@@ -10,7 +10,7 @@
 		<Metadata name="CommonForm.ВЧ_НастройкиИнтеграции" id="3dd13b84-edb0-45c9-8688-0ba3f3cd262e" configVersion="4d1cc2894839bfdb0440c4da3a58fdb94b09c71d"/>
 		<Metadata name="CommonForm.ВЧ_НастройкиИнтеграции.Form" id="3dd13b84-edb0-45c9-8688-0ba3f3cd262e.0" configVersion="ebe1a7c4d4001ba62b19e5fdc2189184e80df29f"/>
 		<Metadata name="CommonModule.ВЧ_ИнтеграцияСервер" id="fab557d8-4cb8-4db0-8209-0eedc364bf8c" configVersion="ad961e368d4cb0454250191e28d7c69ad7b5268c"/>
-		<Metadata name="CommonModule.ВЧ_ИнтеграцияСервер.Module" id="fab557d8-4cb8-4db0-8209-0eedc364bf8c.0" configVersion="18a3ba99ef180ad7f012da5f9be41ec7211d2ff0"/>
+		<Metadata name="CommonModule.ВЧ_ИнтеграцияСервер.Module" id="fab557d8-4cb8-4db0-8209-0eedc364bf8c.0" configVersion="60be2786a2a59f5a76618162bce9d53a80b06574"/>
 		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий" id="78d94763-fde4-42b0-a8a3-417e7950bad0" configVersion="c358be61a13e142bc2afd5b3f9090570ced9e632"/>
 		<Metadata name="CommonModule.ВЧ_ОбработчикиСобытий.Module" id="78d94763-fde4-42b0-a8a3-417e7950bad0.0" configVersion="79175b72247645c874a2d32426011c7ccc4257bb"/>
 		<Metadata name="Configuration.ВЧ_ИнтеграцияСVoceChat" id="6449aa1b-4e3f-4608-b3c6-0c6cd352366b" configVersion="ba3ad571b01511abcb68624fa69e372b7296281f"/>
