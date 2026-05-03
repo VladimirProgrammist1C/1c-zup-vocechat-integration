@@ -105,6 +105,9 @@
 				<ContextMenu name="СписокЗаписейУправлениеПоискомКонтекстноеМеню" id="24"/>
 				<ExtendedTooltip name="СписокЗаписейУправлениеПоискомРасширеннаяПодсказка" id="25"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">СписокЗаписейВыбор</Event>
+			</Events>
 			<ChildItems>
 				<CheckBoxField name="СписокЗаписейПометка" id="179">
 					<DataPath>СписокЗаписей.Пометка</DataPath>
@@ -115,6 +118,7 @@
 				<LabelField name="СписокЗаписейИДСообщения" id="34">
 					<DataPath>СписокЗаписей.ИДСообщения</DataPath>
 					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокЗаписейИДСообщенияКонтекстноеМеню" id="35"/>
@@ -123,6 +127,7 @@
 				<InputField name="СписокЗаписейIDКанала" id="81">
 					<DataPath>СписокЗаписей.IDКанала</DataPath>
 					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="СписокЗаписейIDКаналаКонтекстноеМеню" id="82"/>
@@ -130,6 +135,7 @@
 				</InputField>
 				<InputField name="СписокЗаписейДатаСоздания" id="38">
 					<DataPath>СписокЗаписей.ДатаСоздания</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<AutoEditMode>true</AutoEditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -138,22 +144,24 @@
 				</InputField>
 				<InputField name="СписокЗаписейСтатус" id="42">
 					<DataPath>СписокЗаписей.Статус</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<AutoEditMode>true</AutoEditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="СписокЗаписейСтатусКонтекстноеМеню" id="43"/>
 					<ExtendedTooltip name="СписокЗаписейСтатусРасширеннаяПодсказка" id="44"/>
 				</InputField>
-				<InputField name="СписокЗаписейДокументОснование" id="46">
+				<LabelField name="СписокЗаписейДокументОснование" id="46">
 					<DataPath>СписокЗаписей.ДокументОснование</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<AutoEditMode>true</AutoEditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<Hiperlink>true</Hiperlink>
 					<ContextMenu name="СписокЗаписейДокументОснованиеКонтекстноеМеню" id="47"/>
 					<ExtendedTooltip name="СписокЗаписейДокументОснованиеРасширеннаяПодсказка" id="48"/>
-				</InputField>
+				</LabelField>
 				<InputField name="СписокЗаписейСотрудник" id="155">
 					<DataPath>СписокЗаписей.Сотрудник</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="СписокЗаписейСотрудникКонтекстноеМеню" id="156"/>
@@ -161,6 +169,7 @@
 				</InputField>
 				<InputField name="СписокЗаписейТекстОшибки" id="50">
 					<DataPath>СписокЗаписей.ТекстОшибки</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<AutoEditMode>true</AutoEditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -169,6 +178,7 @@
 				</InputField>
 				<InputField name="СписокЗаписейПопытки" id="54">
 					<DataPath>СписокЗаписей.Попытки</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<AutoEditMode>true</AutoEditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
