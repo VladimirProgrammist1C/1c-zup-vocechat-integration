@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08336144-ba6c-4bd4-ad5b-effbbd22de56">
+  <producedTypes>
+    <managerType typeId="bbaafaf1-62f6-4de5-81c9-eaa21f1c7391" valueTypeId="b536c427-6e23-4251-9106-3bf61b2908ca"/>
+    <valueManagerType typeId="053289ef-59e7-440b-82b7-30b226e64512" valueTypeId="1dd8c22c-1288-4780-a041-b5c7f010166e"/>
+    <valueKeyType typeId="996a31ea-a364-4b3f-9d6f-92bb2635295f" valueTypeId="7ba2e9f9-479a-436e-bccf-443fde4efeef"/>
+  </producedTypes>
+  <name>ВЧ_URLСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>URLСервера</value>
+  </synonym>
+  <comment>Значение по умолчанию: localhost</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

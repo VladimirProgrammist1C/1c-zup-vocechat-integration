@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6449aa1b-4e3f-4608-b3c6-0c6cd352366b">
+  <name>ВЧ_ИнтеграцияСVoceChat</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с VoceChat для уведомлений</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="dd65656a-f3e3-4d1f-a793-27720f6e8196"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4d4382bc-fc04-4033-afeb-fbe96f522c39"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="23ed8274-1ba0-4e5c-be76-4eb63ccd87ef"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="602ae0d7-e217-43de-bb52-8fdf9c582d98"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="6eb282eb-ecbc-4874-90ba-d60cb0d50325"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="21350897-6ebf-4c96-83e6-ccd8ad3a389e"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="dd00aca6-e75e-4b4b-b290-2ba48fa99e8d"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ВЧ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ВЧ_ОсновнаяРоль</defaultRoles>
+  <version>41</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Интеграция с VoceChat для уведомлений</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Автоматическая отправка уведомлений в корпоративный мессенджер VoceChat при создании новых сотрудников</value>
+  </detailedInformation>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="6456a536-b6ef-417e-8c6a-6fb9270e8fc9" extendedConfigurationObject="6ec41672-ca59-40aa-a4cf-3fef74cdc3c6">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ВЧ_ИнтеграцияСМессенджером</subsystems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ОбъединенныеЭлементыФормыФон</styleItems>
+  <roles>Role.ВЧ_ОсновнаяРоль</roles>
+  <roles>Role.ВЧ_АдминистраторИнтеграции</roles>
+  <roles>Role.ВЧ_ЧтениеИнтеграции</roles>
+  <commonModules>CommonModule.ВЧ_ИнтеграцияСервер</commonModules>
+  <commonModules>CommonModule.ВЧ_ОбработчикиСобытий</commonModules>
+  <eventSubscriptions>EventSubscription.ВЧ_ПриПриемеНаРаботу</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.ВЧ_ОбработчикОчередиУведомлений</scheduledJobs>
+  <functionalOptions>FunctionalOption.ВЧ_ИспользоватьИнтеграциюСVoceChat</functionalOptions>
+  <commonCommands>CommonCommand.ВЧ_ТестированиеОтправки</commonCommands>
+  <commonCommands>CommonCommand.ВЧ_ЖурналУведомлений</commonCommands>
+  <constants>Constant.ВЧ_ИспользоватьИнтеграцию</constants>
+  <constants>Constant.ВЧ_URLСервера</constants>
+  <constants>Constant.ВЧ_ПортСервера</constants>
+  <constants>Constant.ВЧ_BotAPIKey</constants>
+  <constants>Constant.ВЧ_IDКанала</constants>
+  <constants>Constant.ВЧ_ОтветственныйКадровик</constants>
+  <constants>Constant.ВЧ_МаксимальноеКоличествоПопыток</constants>
+  <constants>Constant.ВЧ_ТаймаутHTTP</constants>
+  <commonForms>CommonForm.ВЧ_НастройкиИнтеграции</commonForms>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ПриемНаРаботу</documents>
+  <enums>Enum.ВЧ_СтатусыУведомлений</enums>
+  <dataProcessors>DataProcessor.ОтправкаСообщенийVoceChat</dataProcessors>
+  <dataProcessors>DataProcessor.ВЧ_ЖурналУведомлений</dataProcessors>
+  <dataProcessors>DataProcessor.ВЧ_ПерезаполнениеСотрудникаВРегистреУведомлений</dataProcessors>
+  <informationRegisters>InformationRegister.ВЧ_ОчередьУведомлений</informationRegisters>
+</mdclass:Configuration>

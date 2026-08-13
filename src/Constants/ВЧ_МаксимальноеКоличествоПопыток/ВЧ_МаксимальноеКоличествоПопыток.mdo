@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8168569-ece6-4082-8d2b-800e8fc16585">
+  <producedTypes>
+    <managerType typeId="24b9d00c-e7ed-43bd-a6c5-94fbd470472d" valueTypeId="2e9ec64e-cf7d-431b-aa41-a418339ffb00"/>
+    <valueManagerType typeId="20f9ce68-1005-4dae-b2be-48707e106cff" valueTypeId="3c127d28-ffc0-4e64-b69e-25b5fec7104c"/>
+    <valueKeyType typeId="4f917037-867a-454c-a34f-16b6388f161c" valueTypeId="d5d98aa7-f5b1-4d86-b945-17e0fe6720e9"/>
+  </producedTypes>
+  <name>ВЧ_МаксимальноеКоличествоПопыток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальное количество попыток отправки уведомлений</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

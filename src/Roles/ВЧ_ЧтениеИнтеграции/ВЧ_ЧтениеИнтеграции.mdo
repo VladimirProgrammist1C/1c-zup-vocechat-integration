@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="207d07a3-6090-48f3-86ac-b5914e975699">
+  <name>ВЧ_ЧтениеИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение интеграции VoceChat</value>
+  </synonym>
+</mdclass:Role>

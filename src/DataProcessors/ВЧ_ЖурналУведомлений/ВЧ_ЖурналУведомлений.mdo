@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8214cf55-0089-41f9-b888-68051a8a136b">
+  <producedTypes>
+    <objectType typeId="254f588f-463d-4241-ab2a-7c39bf3699ae" valueTypeId="5b2aff93-b362-4fc5-926e-fe13b8eb7208"/>
+    <managerType typeId="6ba9ba74-72e7-4692-91e7-d3f7820dda5f" valueTypeId="6dc508d5-9639-4ae4-9893-071af4ae265b"/>
+  </producedTypes>
+  <name>ВЧ_ЖурналУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал уведомлений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВЧ_ЖурналУведомлений.Form.ВЧ_ЖурналУведомлений</defaultForm>
+  <forms uuid="abc8c448-7438-4738-b80e-c74580d725ac">
+    <name>ВЧ_ЖурналУведомлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал уведомлений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

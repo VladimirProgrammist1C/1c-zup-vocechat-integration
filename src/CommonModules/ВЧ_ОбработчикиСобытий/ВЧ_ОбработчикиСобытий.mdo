@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78d94763-fde4-42b0-a8a3-417e7950bad0">
+  <name>ВЧ_ОбработчикиСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчики событий</value>
+  </synonym>
+  <comment>Подписки на события конфигурации</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

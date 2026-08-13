@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="963ffcb7-80e5-44d6-88b4-a2b230751414">
+  <name>ВЧ_ИнтеграцияСМессенджером</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с мессенджером</value>
+  </synonym>
+  <comment>Группировка настроек и инструментов</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ВЧ_ОчередьУведомлений</content>
+  <content>Constant.ВЧ_ИспользоватьИнтеграцию</content>
+  <content>Constant.ВЧ_URLСервера</content>
+  <content>Constant.ВЧ_ПортСервера</content>
+  <content>Constant.ВЧ_BotAPIKey</content>
+  <content>Constant.ВЧ_IDКанала</content>
+  <content>Constant.ВЧ_ОтветственныйКадровик</content>
+  <content>Enum.ВЧ_СтатусыУведомлений</content>
+  <content>EventSubscription.ВЧ_ПриПриемеНаРаботу</content>
+  <content>ScheduledJob.ВЧ_ОбработчикОчередиУведомлений</content>
+  <content>CommonModule.ВЧ_ИнтеграцияСервер</content>
+  <content>CommonModule.ВЧ_ОбработчикиСобытий</content>
+  <content>CommonCommand.ВЧ_ТестированиеОтправки</content>
+  <content>CommonForm.ВЧ_НастройкиИнтеграции</content>
+  <content>Constant.ВЧ_МаксимальноеКоличествоПопыток</content>
+  <content>Constant.ВЧ_ТаймаутHTTP</content>
+  <content>4c1a05d5-ed9a-4778-a199-5b6c305d9b08</content>
+  <content>DataProcessor.ВЧ_ЖурналУведомлений</content>
+  <content>CommonCommand.ВЧ_ЖурналУведомлений</content>
+  <content>DataProcessor.ВЧ_ПерезаполнениеСотрудникаВРегистреУведомлений</content>
+</mdclass:Subsystem>

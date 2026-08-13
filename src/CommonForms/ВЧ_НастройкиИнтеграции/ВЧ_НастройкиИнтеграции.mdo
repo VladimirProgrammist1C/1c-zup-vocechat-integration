@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dd13b84-edb0-45c9-8688-0ba3f3cd262e">
+  <name>ВЧ_НастройкиИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки интеграции VoceChat</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Настройки интеграции с VoceChat</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Форма настроек интеграции с VoceChat</value>
+  </explanation>
+</mdclass:CommonForm>

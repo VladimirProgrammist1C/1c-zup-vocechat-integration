@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="311e4cc6-097e-49a8-82e5-b85614a4b609">
+  <name>ВЧ_ИспользоватьИнтеграциюСVoceChat</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать интеграцию с voce chat</value>
+  </synonym>
+  <location>Constant.ВЧ_ИспользоватьИнтеграцию</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Constant.ВЧ_URLСервера</content>
+  <content>Constant.ВЧ_ПортСервера</content>
+  <content>Constant.ВЧ_BotAPIKey</content>
+  <content>Constant.ВЧ_IDКанала</content>
+  <content>Constant.ВЧ_ОтветственныйКадровик</content>
+  <content>Enum.ВЧ_СтатусыУведомлений</content>
+  <content>InformationRegister.ВЧ_ОчередьУведомлений</content>
+  <content>Constant.ВЧ_ТаймаутHTTP</content>
+  <content>Constant.ВЧ_МаксимальноеКоличествоПопыток</content>
+</mdclass:FunctionalOption>

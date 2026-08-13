@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b940b48c-9b3b-44f4-949d-0da3766bb15a">
+  <name>ВЧ_АдминистраторИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администратор интеграции с VoceChat</value>
+  </synonym>
+</mdclass:Role>

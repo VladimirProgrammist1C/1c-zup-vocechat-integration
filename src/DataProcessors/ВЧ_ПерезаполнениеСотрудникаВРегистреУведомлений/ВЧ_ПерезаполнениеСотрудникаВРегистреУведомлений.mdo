@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ff5b802-b1ab-45a1-9270-de210fd42054">
+  <producedTypes>
+    <objectType typeId="52b29c2a-ab28-4f74-8e87-be1660649535" valueTypeId="ad14d059-26b5-4f36-8918-81aa616732a0"/>
+    <managerType typeId="b6c7f335-86de-4fc3-851a-ff220ef2ddb0" valueTypeId="8a3dda50-909a-447b-adab-fbfec67e08e1"/>
+  </producedTypes>
+  <name>ВЧ_ПерезаполнениеСотрудникаВРегистреУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перезаполнение сотрудника в регистре уведомлений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВЧ_ПерезаполнениеСотрудникаВРегистреУведомлений.Form.Форма</defaultForm>
+  <forms uuid="44b413c7-0c6a-4573-be3c-c5ad1d9529ed">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

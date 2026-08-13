@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75e518ce-bbb5-4a93-98d1-6f42711fc560">
+  <name>ВЧ_ПриПриемеНаРаботу</name>
+  <synonym>
+    <key>ru</key>
+    <value>При приеме на работу</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ПриемНаРаботу</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ВЧ_ОбработчикиСобытий.ВЧ_ПриПриемеНаРаботуПередЗаписью</handler>
+</mdclass:EventSubscription>

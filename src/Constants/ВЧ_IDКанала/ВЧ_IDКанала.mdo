@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d2ba080-02cc-4ca3-9b99-d17cb86558d1">
+  <producedTypes>
+    <managerType typeId="15a19598-63ad-4d40-8765-6a934b8d0a2d" valueTypeId="02fac7d7-9723-49e0-bb51-808e1cbb2458"/>
+    <valueManagerType typeId="068e299d-c32e-4bba-b91a-99a403d299a1" valueTypeId="3b9bbc56-32ed-40da-9547-3d7712eb9d37"/>
+    <valueKeyType typeId="94384ac6-0fb0-4b33-aa56-6c3e8d456e53" valueTypeId="99c503bb-da9f-4a80-824e-9cb00b7e8965"/>
+  </producedTypes>
+  <name>ВЧ_IDКанала</name>
+  <synonym>
+    <key>ru</key>
+    <value>IDКанала</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

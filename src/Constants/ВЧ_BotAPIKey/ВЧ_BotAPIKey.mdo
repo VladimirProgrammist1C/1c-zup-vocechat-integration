@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73c87ff6-4e13-4f39-9701-c6491b421696">
+  <producedTypes>
+    <managerType typeId="861c0948-8799-4fac-9709-c4b4747a1435" valueTypeId="95ee0e33-ce4e-46b1-90ba-f99ebabb68ff"/>
+    <valueManagerType typeId="5fdc35b7-3391-44bf-9d60-8ec2e549a3b9" valueTypeId="2a6a2fd9-b0ef-4ee0-9415-7180ebc71a1e"/>
+    <valueKeyType typeId="f4ce5d29-2b44-4cde-a8a7-0069cb391edf" valueTypeId="313a32d3-0783-474f-9fd3-fb5c71f85f37"/>
+  </producedTypes>
+  <name>ВЧ_BotAPIKey</name>
+  <synonym>
+    <key>ru</key>
+    <value>Bot APIKey</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <passwordMode>true</passwordMode>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

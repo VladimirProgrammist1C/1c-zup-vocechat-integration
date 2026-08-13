@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad859d09-3f63-478b-987f-2123cf8fe298">
+  <producedTypes>
+    <selectionType typeId="ae10f394-f4dd-4a0d-8aa2-f6d0fac684d6" valueTypeId="e1efc732-8c43-4590-b32c-d9b68a82054b"/>
+    <listType typeId="9e511f3b-1f04-4162-9fa0-55e079376923" valueTypeId="7dbc2127-7f6a-4ea2-9140-cd1e0a509104"/>
+    <managerType typeId="fda75400-68bf-471a-9422-ee7866eccdfc" valueTypeId="6fbaa400-36a9-4d97-a1f6-69830a459d06"/>
+    <recordSetType typeId="aa43b415-96d7-48bc-a2ec-e7130440ada8" valueTypeId="d2b36cb9-692b-440a-8f77-d2c5a72c0707"/>
+    <recordKeyType typeId="2d460c7c-fe08-4c47-8e85-32e6db711937" valueTypeId="9bd89193-d29d-430e-8184-cfb8d6cda980"/>
+    <recordType typeId="fce61491-9a58-4cad-a32d-11f797e25c39" valueTypeId="68575c48-a9bb-42bd-971f-5cbb65ae63ea"/>
+    <recordManagerType typeId="b3e63c66-94aa-4c69-b4b7-49a7d68db110" valueTypeId="5e7b0bec-654c-4f0f-a8df-0438626f1167"/>
+  </producedTypes>
+  <name>ВЧ_ОчередьУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь уведомлений VoceChat</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ВЧ_ОчередьУведомлений.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ВЧ_ОчередьУведомлений.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9f898275-39ce-433f-a2f7-748a7697f274">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ddc3124d-8bb4-4905-a340-bac5f9bdf747">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <comment>Значение по умолчанию: &quot;Ожидает&quot;</comment>
+    <type>
+      <types>EnumRef.ВЧ_СтатусыУведомлений</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ожидает / Отправлено / Ошибка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d39bf50d-1a33-4f70-b783-455ecffca1b9">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b1b977a0-1365-48bf-8f73-cb739d3229fc">
+    <name>ПопыткиОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Попытки отправки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7bd3fcfa-fb3a-440e-9f00-e1935becdf5b">
+    <name>ТипСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип события</value>
+    </synonym>
+    <comment>Значение по умолчанию: &quot;НовыйСотрудник&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип задачи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>НовыйСотрудник</value>
+    </fillValue>
+  </resources>
+  <resources uuid="5144dce6-de22-4ac4-af77-cec2e2298272">
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <comment>Доп. данные (ФИО, телефон и т.д.)</comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Доп. данные (ФИО, телефон и т.д.)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e4a8407f-dcbe-40dd-8004-101ee1448258">
+    <name>ТекстОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="a46b5b08-8355-483c-a871-a3a7e8d02cae">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <comment>Когда задача поставлена в очередь</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Когда задача поставлена в очередь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="45424096-9843-4064-a4fd-146c6c1592cd">
+    <name>ДатаПоследнейПопытки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последней попытки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7a646f59-6acb-411b-8417-5adacd175de2">
+    <name>ОтветственныйКадровик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный кадровик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e1a690eb-f74c-4b17-a263-20254d8f3eff">
+    <name>ИДСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID Сообщения</value>
+    </synonym>
+    <comment>Ключ уникальности (GUID)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d6177993-a975-4e27-b5f5-1adf78578af0">
+    <name>IDКанала</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID Канала</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9c2f6723-40c2-402d-99da-71ce2abda847">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПриемНаРаботу</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6a2af7ce-718f-4466-ad8c-b26d8b0e5ea0">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="215027ce-4b20-4621-871d-9ce01e45828d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

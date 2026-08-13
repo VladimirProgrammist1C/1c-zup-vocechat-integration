@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c0ea738-340d-4c18-bf11-b2f97e93e3cb">
+  <producedTypes>
+    <managerType typeId="f74bd7c3-f167-4534-87a6-9c013279215f" valueTypeId="ed65f08a-e414-4429-8224-4c1f7060bd22"/>
+    <valueManagerType typeId="b28e53a5-f4d8-474a-9fcf-b04f43ff5774" valueTypeId="0f195dab-ad12-4dbd-b05d-03b8f7dd23e5"/>
+    <valueKeyType typeId="4fd08d80-e3c3-4ba7-8d34-45d44c173be7" valueTypeId="4cacc60d-63d5-4362-8bce-34cc653a0327"/>
+  </producedTypes>
+  <name>ВЧ_ТаймаутHTTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таймаут HTTP</value>
+  </synonym>
+  <comment>Таймаут HTTP-соединения для интеграции с VoceChat (в секундах)</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Таймаут HTTP-соединения для интеграции с VoceChat (в секундах)</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

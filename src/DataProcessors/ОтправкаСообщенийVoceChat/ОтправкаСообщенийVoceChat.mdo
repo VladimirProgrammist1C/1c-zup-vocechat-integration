@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbf5103a-f986-4511-997a-5cedf09075a6">
+  <producedTypes>
+    <objectType typeId="09a56de7-cb71-45b6-a794-b104206d2887" valueTypeId="913a9303-07ef-4986-8eb6-114cca087aa1"/>
+    <managerType typeId="fc90f409-0ca1-441d-8713-486b808ca095" valueTypeId="f7bb8098-499f-4581-95c4-b578b83420bc"/>
+  </producedTypes>
+  <name>ОтправкаСообщенийVoceChat</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка сообщений voce chat</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОтправкаСообщенийVoceChat.Form.Форма</defaultForm>
+  <forms uuid="ab7bc7e1-370f-41ea-a6a7-59a303da3730">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

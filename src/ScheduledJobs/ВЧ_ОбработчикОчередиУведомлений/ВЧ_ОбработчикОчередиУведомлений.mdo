@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="285f8fd1-549a-41cd-a739-4a45acc91529">
+  <name>ВЧ_ОбработчикОчередиУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>В ч обработчик очереди уведомлений</value>
+  </synonym>
+  <methodName>CommonModule.ВЧ_ОбработчикиСобытий.Обработать</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>
