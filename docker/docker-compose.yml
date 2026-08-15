@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+  # ===========================================================================
+  # PostgreSQL 1C (сборка из дистрибутива ИТС + русская локаль)
+  # ===========================================================================
+  postgres:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: zup-integration-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: zup_test
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-TestPass123!}
+    volumes:
+      - zup_int_pg_data:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    networks:
+      - zup-integration-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ===========================================================================
+  # VoceChat (для проверки отправки уведомлений)
+  # ===========================================================================
+  vocechat:
+    image: privoce/vocechat-server:latest
+    container_name: zup-integration-chat
+    restart: unless-stopped
+    environment:
+      - ADMIN_EMAIL=admin@local.dev
+      - ADMIN_PASSWORD=${VOCECHAT_ADMIN_PASSWORD:-AdminPass123!}
+    volumes:
+      - zup_int_vc_data:/home/vocechat-server/data
+    ports:
+      - "3001:3000"
+    networks:
+      - zup-integration-net
+
+# =============================================================================
+# Volumes (изолированные для этого проекта)
+# =============================================================================
+volumes:
+  zup_int_pg_data:
+    driver: local
+  zup_int_vc_data:
+    driver: local
+
+# =============================================================================
+# Networks
+# =============================================================================
+networks:
+  zup-integration-net:
+    driver: bridge

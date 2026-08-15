@@ -1,0 +1,21 @@
+# === EDT / 1C ===
+.metadata/
+.settings/
+bin/
+*.tmp
+*.bak
+
+# === Docker ===
+.env
+.env.local
+# Архив с ИТС (скачать самостоятельно!)
+docker/postgresql_*.tar.bz2
+docker/postgresql_*.tar.gz
+
+# === OS ===
+Thumbs.db
+.DS_Store
+
+# === Logs ===
+*.log
+logs/
