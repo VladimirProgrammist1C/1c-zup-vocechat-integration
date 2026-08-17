@@ -56,7 +56,9 @@ VOCECHAT_ADMIN_PASSWORD=MyVoceChatPassword
    ```
 
 ## 🔗 Связанные проекты
-- [1C Home Infrastructure](https://github.com/VladimirProgrammist1C/1c-home-infrastructure) — полная инфраструктура сервера (мониторинг, бэкапы, продакшен-окружение).
+
+- **[1c-home-infrastructure](https://github.com/VladimirProgrammist1C/1c-home-infrastructure)** — домашняя инфраструктура, в которой работает VoceChat: именно этот мессенджер принимает HR-уведомления расширения.
+- **[grafinya-monitoring-stack](https://github.com/VladimirProgrammist1C/grafinya-monitoring-stack)** — импортозамещённый контур мониторинга (Графиня + Victoria Metrics). Технически не связан с расширением, но использует тот же VoceChat: HR-уведомления идут в `#hr_notify`, технические алерты — в `#alerts` и `#vm-alerts`.
 
 ## 🛠️ Технологии
 - 1C:Enterprise 8.3 (EDT)
