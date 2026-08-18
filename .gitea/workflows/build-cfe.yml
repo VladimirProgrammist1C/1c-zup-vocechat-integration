@@ -1,0 +1,45 @@
+name: build-cfe
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: windows-host
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build cfe
+        shell: powershell
+        run: |
+          Set-ExecutionPolicy Bypass -Scope Process -Force
+          .\scripts\build-release.ps1 -RepoRoot $env:GITHUB_WORKSPACE
+
+      - name: Show artifact
+        shell: powershell
+        run: |
+          Get-ChildItem "E:\DEV_LOCAL\BUILD\cfe-build\out\*.cfe" | Select-Object Name, Length, LastWriteTime
+
+      - name: Upload to Gitea Release
+        shell: powershell
+        env:
+          RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        run: |
+          $tag  = $env:GITHUB_REF_NAME
+          $repo = "admin/1c-zup-vocechat-integration"
+          $api  = "http://localhost:3003/api/v1"
+          $hdr  = @{ Authorization = "token $env:RELEASE_TOKEN" }
+          $cfe  = Get-ChildItem "E:\DEV_LOCAL\BUILD\cfe-build\out\*.cfe" | Select-Object -First 1
+
+          try {
+            $rel = Invoke-RestMethod -Uri "$api/repos/$repo/releases/tags/$tag" -Headers $hdr
+          } catch {
+            $body = @{ tag_name = $tag; name = "Release $tag"; body = "Автосборка CI" } | ConvertTo-Json -Compress
+            $rel = Invoke-RestMethod -Uri "$api/repos/$repo/releases" -Method Post -Headers $hdr -ContentType "application/json" -Body $body
+          }
+
+          curl.exe -s -H "Authorization: token $env:RELEASE_TOKEN" -F "attachment=@$($cfe.FullName);filename=$($cfe.Name)" "$api/repos/$repo/releases/$($rel.id)/assets"
+          Write-Host "Артефакт прикреплён к релизу $tag"
