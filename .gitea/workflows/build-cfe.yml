@@ -36,6 +36,8 @@ jobs:
           $api  = "http://localhost:3003/api/v1"
           $hdr  = @{ Authorization = "token $env:RELEASE_TOKEN" }
           $cfe  = Get-ChildItem "E:\DEV_LOCAL\BUILD\cfe-build\out\*.cfe" | Select-Object -First 1
+          $ver  = $cfe.BaseName -replace '^.*?(\d+\.\d+\.\d+\.\d+)$','$1'
+          $name = "VoiceChatIntegration-$ver.cfe"
 
           try {
             $rel = Invoke-RestMethod -Uri "$api/repos/$repo/releases/tags/$tag" -Headers $hdr
@@ -44,8 +46,15 @@ jobs:
             $rel = Invoke-RestMethod -Uri "$api/repos/$repo/releases" -Method Post -Headers $hdr -ContentType "application/json" -Body $body
           }
 
-          curl.exe -s -H "Authorization: token $env:RELEASE_TOKEN" -F "attachment=@$($cfe.FullName);filename=$($cfe.Name)" "$api/repos/$repo/releases/$($rel.id)/assets"
-          Write-Host "Gitea: artifact attached to release $tag"
+          foreach ($a in @(Invoke-RestMethod -Uri "$api/repos/$repo/releases/$($rel.id)/assets" -Headers $hdr)) {
+            if ($a.name -like "*.cfe") {
+              Invoke-RestMethod -Uri "$api/repos/$repo/releases/$($rel.id)/assets/$($a.id)" -Method Delete -Headers $hdr
+            }
+          }
+
+          curl.exe -s -S -H "Authorization: token $env:RELEASE_TOKEN" -F "attachment=@$($cfe.FullName);filename=$name" "$api/repos/$repo/releases/$($rel.id)/assets"
+          if ($LASTEXITCODE -ne 0) { throw "gitea upload failed with code $LASTEXITCODE" }
+          Write-Host "Gitea: $name attached to release $tag"
 
       - name: Upload to GitHub Release
         shell: powershell
@@ -57,6 +66,8 @@ jobs:
           $api  = "https://api.github.com/repos/$repo"
           $hdr  = @{ Authorization = "token $env:GH_RELEASE_TOKEN"; Accept = "application/vnd.github+json" }
           $cfe  = Get-ChildItem "E:\DEV_LOCAL\BUILD\cfe-build\out\*.cfe" | Select-Object -First 1
+          $ver  = $cfe.BaseName -replace '^.*?(\d+\.\d+\.\d+\.\d+)$','$1'
+          $name = "VoiceChatIntegration-$ver.cfe"
 
           try {
             $rel = Invoke-RestMethod -Uri "$api/releases/tags/$tag" -Headers $hdr
@@ -65,6 +76,12 @@ jobs:
             $rel = Invoke-RestMethod -Uri "$api/releases" -Method Post -Headers $hdr -ContentType "application/json" -Body $body
           }
 
-          $uploadUrl = ($rel.upload_url -replace '\{.*\}', '') + "?name=" + [uri]::EscapeDataString($cfe.Name)
-          curl.exe -s -H "Authorization: token $env:GH_RELEASE_TOKEN" -H "Content-Type: application/octet-stream" --data-binary "@$($cfe.FullName)" $uploadUrl | Out-Null
-          Write-Host "GitHub: artifact attached to release $tag"
+          foreach ($a in @($rel.assets)) {
+            if ($a.name -like "*.cfe") {
+              Invoke-RestMethod -Uri "$api/releases/assets/$($a.id)" -Method Delete -Headers $hdr
+            }
+          }
+
+          $uploadUrl = ($rel.upload_url -replace '\{.*\}', '') + "?name=$name"
+          Invoke-RestMethod -Uri $uploadUrl -Method Post -Headers $hdr -ContentType "application/octet-stream" -InFile $cfe.FullName
+          Write-Host "GitHub: $name attached to release $tag"
