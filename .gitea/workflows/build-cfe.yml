@@ -11,12 +11,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Build cfe
         shell: powershell
         run: |
           Set-ExecutionPolicy Bypass -Scope Process -Force
           .\scripts\build-release.ps1 -RepoRoot $env:GITHUB_WORKSPACE
+          exit 0
 
       - name: Show artifact
         shell: powershell
@@ -42,4 +45,26 @@ jobs:
           }
 
           curl.exe -s -H "Authorization: token $env:RELEASE_TOKEN" -F "attachment=@$($cfe.FullName);filename=$($cfe.Name)" "$api/repos/$repo/releases/$($rel.id)/assets"
-          Write-Host "Артефакт прикреплён к релизу $tag"
+          Write-Host "Gitea: артефакт прикреплён к релизу $tag"
+
+      - name: Upload to GitHub Release
+        shell: powershell
+        env:
+          GH_RELEASE_TOKEN: ${{ secrets.GH_RELEASE_TOKEN }}
+        run: |
+          $tag  = $env:GITHUB_REF_NAME
+          $repo = "VladimirProgrammist1C/1c-zup-vocechat-integration"
+          $api  = "https://api.github.com/repos/$repo"
+          $hdr  = @{ Authorization = "token $env:GH_RELEASE_TOKEN"; Accept = "application/vnd.github+json" }
+          $cfe  = Get-ChildItem "E:\DEV_LOCAL\BUILD\cfe-build\out\*.cfe" | Select-Object -First 1
+
+          try {
+            $rel = Invoke-RestMethod -Uri "$api/releases/tags/$tag" -Headers $hdr
+          } catch {
+            $body = @{ tag_name = $tag; name = "Release $tag"; body = "Автосборка CI" } | ConvertTo-Json -Compress
+            $rel = Invoke-RestMethod -Uri "$api/releases" -Method Post -Headers $hdr -ContentType "application/json" -Body $body
+          }
+
+          $uploadUrl = ($rel.upload_url -replace '\{.*\}', '') + "?name=" + [uri]::EscapeDataString($cfe.Name)
+          curl.exe -s -H "Authorization: token $env:GH_RELEASE_TOKEN" -H "Content-Type: application/octet-stream" --data-binary "@$($cfe.FullName)" $uploadUrl | Out-Null
+          Write-Host "GitHub: артефакт прикреплён к релизу $tag"
