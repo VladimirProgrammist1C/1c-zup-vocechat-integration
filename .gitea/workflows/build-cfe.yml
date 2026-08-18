@@ -40,12 +40,12 @@ jobs:
           try {
             $rel = Invoke-RestMethod -Uri "$api/repos/$repo/releases/tags/$tag" -Headers $hdr
           } catch {
-            $body = @{ tag_name = $tag; name = "Release $tag"; body = "Автосборка CI" } | ConvertTo-Json -Compress
+            $body = @{ tag_name = $tag; name = "Release $tag"; body = "CI autobuild" } | ConvertTo-Json -Compress
             $rel = Invoke-RestMethod -Uri "$api/repos/$repo/releases" -Method Post -Headers $hdr -ContentType "application/json" -Body $body
           }
 
           curl.exe -s -H "Authorization: token $env:RELEASE_TOKEN" -F "attachment=@$($cfe.FullName);filename=$($cfe.Name)" "$api/repos/$repo/releases/$($rel.id)/assets"
-          Write-Host "Gitea: артефакт прикреплён к релизу $tag"
+          Write-Host "Gitea: artifact attached to release $tag"
 
       - name: Upload to GitHub Release
         shell: powershell
@@ -61,10 +61,10 @@ jobs:
           try {
             $rel = Invoke-RestMethod -Uri "$api/releases/tags/$tag" -Headers $hdr
           } catch {
-            $body = @{ tag_name = $tag; name = "Release $tag"; body = "Автосборка CI" } | ConvertTo-Json -Compress
+            $body = @{ tag_name = $tag; name = "Release $tag"; body = "CI autobuild" } | ConvertTo-Json -Compress
             $rel = Invoke-RestMethod -Uri "$api/releases" -Method Post -Headers $hdr -ContentType "application/json" -Body $body
           }
 
           $uploadUrl = ($rel.upload_url -replace '\{.*\}', '') + "?name=" + [uri]::EscapeDataString($cfe.Name)
           curl.exe -s -H "Authorization: token $env:GH_RELEASE_TOKEN" -H "Content-Type: application/octet-stream" --data-binary "@$($cfe.FullName)" $uploadUrl | Out-Null
-          Write-Host "GitHub: артефакт прикреплён к релизу $tag"
+          Write-Host "GitHub: artifact attached to release $tag"
